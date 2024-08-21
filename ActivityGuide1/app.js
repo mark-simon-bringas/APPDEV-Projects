@@ -62,16 +62,23 @@ btn5.addEventListener("click", () => {
     document.getElementById("output5").innerHTML = farenheitVal;
 });
 
-/**
+
 const btn6 = document.getElementById("btn6");
 btn6.addEventListener("click", () => {
-    function cToF(celsius) {
-        let farenheit = (9 / 5) * celsius + 32;
-        return farenheit;
+    function calorieConsumed(cookie) {
+        let bag = 40;
+        let serving = 10;
+        let calorie = 300;
+        let cookiePerServing = bag / serving;
+        let calorieCookie = calorie / cookiePerServing;
+        let consumed = cookie * calorieCookie;
+        return consumed;
     }
-
+    let cookieEaten = document.getElementById("cookie").value;
+    let consumedVal = `Total calories consumed: ${calorieConsumed(cookieEaten)} cal`;
+    document.getElementById("output6").innerHTML = consumedVal;
 });
-*/
+
 
 const btn7 = document.getElementById("btn7");
 btn7.addEventListener("click", () => {
