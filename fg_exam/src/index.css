@@ -1,0 +1,15 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+}
+img {
+    width: 500px;
+    height: 500px;
+}
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 20px;
+}
