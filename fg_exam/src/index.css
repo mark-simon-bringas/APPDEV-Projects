@@ -1,10 +1,27 @@
-html {
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: block;
+    background-image: url(https://i.gifer.com/J4o.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: aliceblue;
 }
+
+h1, h2, h3, h4, p, ul {
+    text-shadow: 2px 2px 8px azure;
+    margin: 20px;
+}
+
+.message h2 {
+    text-align: center;
+}
+
 img {
+    opacity: 1;  
     width: 500px;
     height: 500px;
+    border-radius: 10% 10% 10% 10%;
 }
 .product {
     display: flex;
