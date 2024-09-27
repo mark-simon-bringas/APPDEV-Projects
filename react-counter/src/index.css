@@ -1,8 +1,9 @@
-.container{
+header, footer, .container{
   text-align: center;
   margin-top: 50px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 button{
   padding: 10px;
   width: 150px;
@@ -13,6 +14,10 @@ button{
   font-weight: bold;
   color: white;
   background-color: hsl(0, 0%, 40%);
+}
+button.button-container-increment-by-five,
+button.button-container-decrement-by-five {
+  width: 200px;   /* Increased width due to long text */
 }
 button:hover{
   background-color: hsl(0, 0%, 20%);
