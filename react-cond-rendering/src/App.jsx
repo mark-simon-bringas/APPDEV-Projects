@@ -65,12 +65,12 @@ function App() {
       {
         fruits.length > 0 ?
         (<ListOfFruits items={fruits} category="My Favorite Fruits: "/>) :
-        <h3 className='list-category'>No fruits.</h3>
+        <h3 className='list-category-none'>No fruits.</h3> // minimal design
       }
       {
         desserts.length > 0 ?
         (<ListOfFruits items={desserts} category="My Favorite Desserts: "/>) :
-        <p>I do not like desserts.</p>
+        <h3 className='list-category-none'>I do not like desserts.</h3> // minimal design
       }
       <Footer />
     </>
