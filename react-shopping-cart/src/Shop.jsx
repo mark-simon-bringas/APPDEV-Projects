@@ -68,7 +68,7 @@ export default function Shop(props) {
                 <ul>
                     {renderItems()}
                 </ul>
-                <p>Total Amount: ${calculateTotalAmount()}</p>
+                <p><strong>Total Amount:</strong> ${calculateTotalAmount()}</p>
     
                 <h4>These are the cart items: </h4>
                 <ul>

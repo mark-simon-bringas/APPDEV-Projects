@@ -50,9 +50,19 @@ export default function Login() {
         return (
             <div>
                 <h1>Login: </h1>
-                Username: <input type='text' placeholder='username' id='username' onChange={getUsername} />
+                Username: <input type='text' 
+                                placeholder='username' 
+                                id='username' 
+                                onChange={getUsername}
+                                onKeyDown={(e) => {e.key === 'Enter' && handleLogin()}}
+                                />
                 <br />
-                Password: <input type='text' placeholder='password' id='password' onChange={getPassword} />
+                Password: <input type='text' 
+                                placeholder='password' 
+                                id='password' 
+                                onChange={getPassword} 
+                                onKeyDown={(e) => {e.key === 'Enter' && handleLogin()}}
+                                />
                 <br />
                 <button onClick={handleLogin}>Login</button>
             </div>
