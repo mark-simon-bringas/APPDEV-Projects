@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Footer from "../Footer"
 
 const games = [
     {
@@ -16,6 +17,7 @@ const games = [
         a shadow organization that has been manipulating world events since the end of the Previous Era.",
         publisher: "HoYoverse",
         developer: "miHoYo",
+        image:"/src/assets/hi3-poster.jpg",
         reviews: [
             {
                 id: 1,
@@ -47,6 +49,7 @@ const games = [
         accompanied by their guide, Paimon. Along the way, the two befriend myriad individuals, become involved in the affairs of its nations, and begin to unravel the mysteries of the land.",
         publisher: "HoYoverse",
         developer: "HoYoverse",
+        image:"/src/assets/gi-poster.jpg",
         reviews: [
             {
                 id: 1,
@@ -80,12 +83,13 @@ const games = [
         an object known as the Cancer of All Worlds, which brings destruction to any planet it is placed on. Some Paths were led by Aeons who are now deceased, but continue to exist without the influence of their Aeons. \
         The main character of the game known as the Trailblazer, a mysterious amnesiac possessing a Stellaron, follows the Path of Trailblaze, a Path created by the deceased Akivili. Pathstriders of Trailblaze seek to \
         \"explore, establish, and connect\" among different worlds. Different Paths are portrayed as antagonistic, protagonistic, or neutral. The primary antagonist of the game is Nanook, who controls the Path of Destruction, \
-        along with Antimatter Legion led by Lord Ravagers, the Emanators of the Path of Destruction.[11][12] Other Paths, such as the Path of Abundance, are not necessarily seen as antagonistic, \
+        along with Antimatter Legion led by Lord Ravagers, the Emanators of the Path of Destruction. Other Paths, such as the Path of Abundance, are not necessarily seen as antagonistic, \
         but are involved in rivalries with the Hunt and other Paths, who view the immortality granted by the Path of Abundance as a curse. Aside from the Path of Destruction, \
         the Stellaron Hunters are a somewhat antagonistic antihero group throughout the game, who search for and collect Stellarons across the universe and claim to be able to see the future. \
         The main characters are often in conflict with the Stellaron Hunters, though they more or less end up aiding each other on their journeys.",
         publisher: "HoYoverse",
         developer: "miHoYo",
+        image:"/src/assets/hsr-poster.jpg",
         reviews: [
             {
                 id: 1,
@@ -116,6 +120,7 @@ const games = [
         and each Servant has their own scenario which the player can explore.",
         publisher: "Aniplex",
         developer: "Lasengle",
+        image:"/src/assets/fgo-poster.jpeg",
         reviews: [
             {
                 id: 1,
@@ -146,6 +151,7 @@ const games = [
         The story follows the amnesiac Rover, who has awakened from a deep slumber and sets out to explore this new world.",
         publisher: "Kuro Games",
         developer: "Kuro Games",
+        image:"/src/assets/wuwa-poster.jpg",
         reviews: [
             {
                 id: 1,
@@ -173,23 +179,36 @@ export default function Games() {
         <>
             <div className="games-list">
                 <h1>Games List:</h1>
-                <ul>
+                <div className="games-list-images">
                     {
                         games.map((game) => (
-                            <li key={game.id}>
+                            <>
                                 <Link to={`/games/${game.id}`} state={{game}}>
-                                    {game.name.toUpperCase()} 
-                                    <br/>
-                                </Link>
-                                <i>
-                                    Publisher: {game.publisher}
-                                    <br/>
-                                    Developer: {game.developer}
-                                </i>
-                            </li>
+                                    <img 
+                                        key={game.id} 
+                                        src={game.image} 
+                                        alt={game.name} 
+                                        title={game.name}
+                                        style={{width: "200px", height: "300px"}}
+                                    />
+                                    <br />
+                                    <center>
+                                        <strong>{game.name.toUpperCase()}</strong> 
+                                        <br/>
+                                        <i>
+                                            Publisher: {game.publisher}
+                                            <br/>
+                                            Developer: {game.developer}
+                                        </i>
+                                    </center>
+                                </Link>                                
+                            </>
                         ))
                     }
-                </ul>
+                </div>
+            </div>
+            <div className="games-footer">
+                <Footer />
             </div>
         </>
     )    
