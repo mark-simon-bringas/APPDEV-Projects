@@ -1,0 +1,48 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  /*PALETTE 1*/
+  --davys-gray: #50514f;
+  --ash-gray: #cbd4c2;
+  --snow: #fffcff;
+  --cerulean: #247ba0;
+  --khaki: #c3b299;
+
+  /*PALETTE 2*/
+  --amaranth-purple: #a63446;
+  --baby-powder-one: #fbfef9;
+  --lapis-lazuli: #0c6291;
+  --eerie-black: #1e1e1e;
+  --murray: #7e1946;
+
+  /*PALETTE 3*/
+  --dark-purple: #1f0022;
+  --claret: #750d37;
+  --celadon: #b3dec1;
+  --mint-green: #dbf9f0;
+  --baby-powder-two: #f7f9f7;
+}
+
+html {
+  margin: 0;
+  background-color: var(--snow);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--murray);
+  color: var(--snow);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  padding: 0 10px;
+  list-style-type: none;
+}
