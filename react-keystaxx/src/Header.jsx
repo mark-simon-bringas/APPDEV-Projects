@@ -4,6 +4,8 @@ import MissionVision from './components/MissionVision'
 import Showcase from './components/Showcase'
 import Listing from './components/Listing'
 import Reviews from './components/Reviews'
+import Developer from './components/Developer'
+import Resume from './components/Resume'
 
 export default function Header() {
     return (
@@ -17,7 +19,7 @@ export default function Header() {
                         </li>
                         <li>
                             <Link to='/mission-vision'>Mission & Vision</Link>
-                         </li>
+                        </li>
                         <li>
                             <Link to='/showcase'>Showcase</Link>
                         </li>
@@ -34,7 +36,7 @@ export default function Header() {
                             Company
                         </li>
                         <li>
-                            Developer
+                            <Link to='/developer'>Developer</Link>
                         </li>
                     </ul>
                 </nav>
@@ -48,6 +50,9 @@ export default function Header() {
                 <Route path='/listing' element={<Listing />} />
                 
                 <Route path='/reviews' element={<Reviews />} />
+
+                <Route path='/developer' element={<Developer />} />
+                <Route path='/developer/resume' element={<Resume />} />
             </Routes>
         </>
     )
