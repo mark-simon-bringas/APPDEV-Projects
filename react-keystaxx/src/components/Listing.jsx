@@ -1,5 +1,17 @@
 import { Link } from 'react-router-dom'
+/*
+https://www.itech.ph/product/redragon-k683wb-rgb-fidd-8k-adjustable-magnetic-switch-gaming-keyboard/
+https://www.itech.ph/product/keychron-k2-v2-84-key-white-backlight-wireless-mechanical-keyboard-hot-swappable-k2-a1h-red/
+https://www.itech.ph/product/rk-royal-kludge-rk-h81-81-keys-tri-mode-with-knob-control-rgb-wireless-mechanical-keyboard-star-night-sky-cyan-switch/
+https://www.itech.ph/product/rk-royal-kludge-rk96-rgb-limited-edition-tri-mode-hot-swappable-mechanical-keyboard-forest-blue-brown-switch/
+https://www.itech.ph/product/rk-royal-kludge-h81-81-keys-tri-mode-with-knob-control-rgb-wireless-mechanical-keyboard-skycan-switch/
 
+https://redragonshop.com/products/s142-wireless-combo
+https://redragonshop.com/products/shiva-k512
+https://redragonshop.com/products/shiva-k512-white-gaming-keyboard
+https://redragonshop.com/products/aditya-k513-membrane-gaming-keyboard
+https://redragonshop.com/products/shiva-k515-membrane-gaming-keyboard
+*/
 const keyboards = [
     {
         id: 1,

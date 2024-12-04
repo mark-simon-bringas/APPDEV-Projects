@@ -6,6 +6,7 @@ import Listing from './components/Listing'
 import Reviews from './components/Reviews'
 import Developer from './components/Developer'
 import Resume from './components/Resume'
+import ListingIndiv from './components/ListingIndiv'
 
 export default function Header() {
     return (
@@ -47,8 +48,10 @@ export default function Header() {
                 <Route path='/' element={<Home />} />
                 <Route path='/mission-vision' element={<MissionVision />} />
                 <Route path='/showcase' element={<Showcase />} />
-                <Route path='/listing' element={<Listing />} />
-                
+                <Route path='/listing'>
+                    <Route index element={<Listing />} />
+                    <Route path=':keyboardID' element={<ListingIndiv />} />
+                </Route>
                 <Route path='/reviews' element={<Reviews />} />
 
                 <Route path='/developer' element={<Developer />} />
