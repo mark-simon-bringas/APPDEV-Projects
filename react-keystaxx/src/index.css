@@ -203,6 +203,12 @@ nav ul li a {
     color: var(--davys-gray);
 }
 
+/*LISTING*/
+.product-list-card img {
+  object-fit: cover;
+  object-position: center;
+}
+
 /*REVIEWS*/
 .review-form-container {
   background-color: white;
