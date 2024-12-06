@@ -44,7 +44,7 @@ const employees = [
             "Advanced spreadsheet skills (Microsoft Excel, Google Sheets)"
         ],
         contact: [],
-        image: ""
+        image: "../assets/image/rsalcedo.jpg"
     },
     {
         id: 2,
@@ -81,7 +81,7 @@ const employees = [
         ],
         skills: [],
         contact: [],
-        image: ""
+        image: "..assets/image/wdosil.jpg"
     },
     {
         id: 3,
@@ -118,7 +118,7 @@ const employees = [
         ],
         skills: [],
         contact: [],
-        image: ""
+        image: "../assets/image/afajardo.png"
     },
     {
         id: 4,
@@ -192,7 +192,7 @@ const employees = [
         ],
         skills: [],
         contact: [],
-        image: ""
+        image: "../assets/jgonzaga.jpg"
     },
     {
         id: 6,
