@@ -3,10 +3,12 @@ import Home from './components/Home'
 import MissionVision from './components/MissionVision'
 import Showcase from './components/Showcase'
 import Listing from './components/Listing'
+import ListingIndiv from './components/ListingIndiv'
 import Reviews from './components/Reviews'
+import Company from './components/Company'
+import Employee from './components/Employee'
 import Developer from './components/Developer'
 import Resume from './components/Resume'
-import ListingIndiv from './components/ListingIndiv'
 
 export default function Header() {
     return (
@@ -34,7 +36,7 @@ export default function Header() {
                             <Link to='/reviews'>Reviews</Link>
                         </li>
                         <li>
-                            Company
+                            <Link to='/company'>Company</Link>
                         </li>
                         <li>
                             <Link to='/developer'>Developer</Link>
@@ -53,7 +55,10 @@ export default function Header() {
                     <Route path=':keyboardID' element={<ListingIndiv />} />
                 </Route>
                 <Route path='/reviews' element={<Reviews />} />
-
+                <Route path='/company'>
+                    <Route index element={<Company />} />
+                    <Route path=':employeeID' element={<Employee />} />
+                </Route>
                 <Route path='/developer' element={<Developer />} />
                 <Route path='/developer/resume' element={<Resume />} />
             </Routes>
