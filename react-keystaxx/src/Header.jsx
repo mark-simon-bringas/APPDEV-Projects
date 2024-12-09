@@ -30,9 +30,6 @@ export default function Header() {
                             <Link to='/listing'>Listing</Link>
                         </li>
                         <li>
-                            Manual
-                        </li>
-                        <li>
                             <Link to='/reviews'>Reviews</Link>
                         </li>
                         <li>
