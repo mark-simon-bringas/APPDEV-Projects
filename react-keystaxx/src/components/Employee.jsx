@@ -6,16 +6,6 @@ export default function Employee() {
 
     return (
         <>
-            {/* test */}
-            <h1>Resumé for {employee.name}</h1>
-            {/* 
-            <img
-                src={employee.image}
-                alt={employee.name}
-                position={employee.name}
-                style={{ width: "200px", height: "200px" }}
-            />
-            */}
             <div className="company-member-resume-info">
                 <h1>{employee.name}</h1>
                 <p>{employee.residence}</p>

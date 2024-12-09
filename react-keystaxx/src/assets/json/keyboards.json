@@ -1,0 +1,726 @@
+[
+    {
+        "id": 1,
+        "title": "K683WB-RGB Fidd 8K Adjustable Magnetic Switch Gaming Keyboard",
+        "type": "Mechanical",
+        "layout": "60% (61 keys)",
+        "keyswitch": "Blue Switch",
+        "keycaps": "White, Mint Cyan",
+        "backlighting": "RGB",
+        "connectivity": "Wired (USB-C)",
+        "dimensions": "279mm x 114mm x 50mm",
+        "features": [
+            "Redragon Customizable Magnetic Switches: Swap switches easily without soldering for personalized typing.",
+            "60% Optimized Layout & Detachable USB-C Cable: Compact and portable design with essential keys intact.",
+            "Concave PBT Keycaps: Durable, comfortable, and sculpted for enhanced keystrokes.",
+            "Rapid Trigger with Dynamic Key Activation: Adjustable actuation distance (0.1mm to 4.0mm) for precise responsiveness.",
+            "40 Levels Per-Key Actuation: Fine-tune each key's actuation level to your preference.",
+            "Dual Action Programming: Program two actions on a single key for streamlined gameplay.",
+            "8K Report Rate: Near-instantaneous responsiveness ensures your commands are executed quickly.",
+            "RGB Backlight with 20 Effects: Personalize your setup with vibrant lighting effects."
+        ],
+        "setup": [
+            "Connect the keyboard to your device via the USB-C cable.",
+            "If using wireless mode, pair the keyboard using Bluetooth by holding the Bluetooth pairing button until it enters pairing mode.",
+            "For 2.4G wireless mode, insert the USB dongle into your device and ensure the keyboard is switched to the 2.4GHz mode.",
+            "Install any required drivers or software if customization options are needed.",
+            "Once connected, your keyboard is ready to use."
+        ],
+        "customization": [
+            "RGB Lighting Customization: Use the software to adjust the lighting effects. Choose from 20 preset RGB effects or create your own. Adjust the brightness and speed of the effects to suit your preferences.",
+            "Adjusting Key Sensitivity/Actuation: The keyboard features dynamic key activation, allowing you to adjust the actuation distance between 0.1mm and 4.0mm. Fine-tune the sensitivity for each key to improve gameplay response.",
+            "Software Instructions: Download and install the accompanying software to program macros, remap keys, and further customize the RGB lighting. Follow the on-screen instructions in the software to configure your preferred settings."
+        ],
+        "maintenance": [
+            "Cleaning Instructions: To clean the keyboard, use a microfiber cloth to wipe down the surface. For stubborn stains, lightly dampen the cloth with water. Remove the keycaps using a keycap puller and clean them separately with mild soap and water. Let the keycaps dry completely before reattaching them.",
+            "Troubleshooting: If the keyboard is not responding, check the connection (wired or wireless). Ensure the drivers are properly installed. For wireless issues, try re-pairing the keyboard or replacing the USB dongle if needed. If certain keys are not functioning, verify if key bindings or macros are properly configured."
+        ],
+        "compliance": [
+            "Safety Guidelines: Always connect the keyboard to a power source using the provided USB-C cable. Do not expose the keyboard to excessive moisture or heat. Keep the keyboard away from children and pets to avoid damage or injury.",
+            "Regulatory Compliance: The K683WB-RGB keyboard complies with FCC, CE, and RoHS standards, ensuring that it meets the necessary safety and environmental regulations."
+        ],
+        "price": 3550.00,
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "reviewer": "Alice",
+                "comment": "Absolutely love this keyboard! The switches are smooth, and the build quality is top-notch. Highly recommend!"
+            },
+            {
+                "id": 2,
+                "rating": 4,
+                "reviewer": "Bob",
+                "comment": "Great keyboard overall, but the spacebar feels a bit off compared to the rest of the keys. Still, I enjoy typing on it."
+            },
+            {
+                "id": 3,
+                "rating": 3,
+                "reviewer": "Charlie",
+                "comment": "Good for the price, but the keycaps feel cheap and the sound of the keys could be better. Not bad, but not great."
+            },
+            {
+                "id": 4,
+                "rating": 5,
+                "reviewer": "Diana",
+                "comment": "This keyboard is perfect for gaming. The RGB lighting is vibrant, and the keys respond quickly. Worth every pesos!"
+            },
+            {
+                "id": 5,
+                "rating": 2,
+                "reviewer": "Ethan",
+                "comment": "Had high hopes, but the keyboard arrived with a few dead keys, and I wasn't impressed with the overall feel. Disappointing."
+            }
+        ],
+        "image": "https://www.itech.ph/wp-content/uploads/2024/04/Redragon-K683WB-RGB-8.jpg"
+    },
+    {
+        "id": 2,
+        "title": "K2 V2 84-Key White Backlight Wireless Mechanical Keyboard Hot Swappable K2-A1H [Red]",
+        "type": "Mechanical",
+        "layout": "75% (84 keys)",
+        "keyswitch": "Red Switch",
+        "keycaps": "Black, White, Red",
+        "backlighting": "White",
+        "connectivity": "Wireless",
+        "dimensions": "343mm x 127mm x 50mm",
+        "features": [
+            "Hot-swappable Version: Customize your typing experience effortlessly without soldering.",
+            "Mac and Windows Compatibility: Designed for seamless use with both operating systems.",
+            "Wireless and Wired Modes: Connect up to 3 devices via Bluetooth or use the wired USB Type-C connection.",
+            "Broadcom Bluetooth 5.1 Chipset: Ensures reliable and broad compatibility for home, office, and light gaming use.",
+            "Largest Battery in a Mechanical Keyboard: Provides extended use for uninterrupted productivity and gaming.",
+            "Essential Function Keys: Convenient access to all critical function keys for improved efficiency."
+        ],
+        "setup": [
+            "Connect the keyboard to your device via the Bluetooth pairing process or use the wired USB Type-C connection.",
+            "For Bluetooth, pair with up to three devices, switching between them with ease using the built-in function.",
+            "Ensure the keyboard is fully charged or connect it to a power source via USB for continuous use.",
+            "Install necessary drivers or software for customization features.",
+            "Once connected, your keyboard is ready for use with no additional setup required."
+        ],
+        "customization": [
+            "RGB Lighting Customization: Adjust the white backlight intensity and effect via the keyboard's built-in controls or companion software for further custom settings.",
+            "Adjusting Key Sensitivity/Actuation: Fine-tune the key actuation to your preference by using the hot-swappable switches. Swap between different switches to adjust the feel.",
+            "Software Instructions: Download and install the customization software to configure macros, remap keys, and modify backlighting effects. The software offers detailed on-screen guidance for settings."
+        ],
+        "maintenance": [
+            "Cleaning Instructions: To clean the keyboard, use a microfiber cloth to wipe the surface. For deeper cleaning, remove the keycaps and clean them with mild soap and water. Allow keycaps to dry completely before reattaching them.",
+            "Troubleshooting: If the keyboard is unresponsive, ensure the battery is charged, the connection is active (Bluetooth or wired), and drivers are up to date. If keys are not registering, check key remaps or reset to default settings."
+        ],
+        "compliance": [
+            "Safety Guidelines: Avoid exposing the keyboard to moisture, excessive heat, or physical impact. Always use the provided USB cable or a certified replacement for charging and wired use.",
+            "Regulatory Compliance: The K2 V2 keyboard complies with FCC, CE, and RoHS standards, ensuring it meets global safety and environmental regulations."
+        ],
+        "price": 4295.00,
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 4,
+                "reviewer": "Fiona",
+                "comment": "Solid keyboard! The tactile feedback is excellent, though I wish the software was a bit more intuitive for customizing RGB settings."
+            },
+            {
+                "id": 2,
+                "rating": 5,
+                "reviewer": "George",
+                "comment": "Fantastic build quality and an absolute joy to type on. The mechanical switches are smooth and satisfying, definitely worth the price."
+            },
+            {
+                "id": 3,
+                "rating": 3,
+                "reviewer": "Hannah",
+                "comment": "Good keyboard, but it’s quite noisy for office use. The performance is great, but it might be too loud in a shared workspace."
+            },
+            {
+                "id": 4,
+                "rating": 1,
+                "reviewer": "Ian",
+                "comment": "Terrible experience. The keyboard stopped working after two days, and customer service was unhelpful. I would not recommend this product."
+            },
+            {
+                "id": 5,
+                "rating": 4,
+                "reviewer": "Jessica",
+                "comment": "Really impressed with the design and feel. The keys are responsive, but the wrist rest could be a little more comfortable."
+            }
+        ],
+        "image": "https://www.itech.ph/wp-content/uploads/2021/03/keychron-k2-v2-red.jpg"
+    },
+    {
+        "id": 3,
+        "title": " Royal Kludge RK H81 81 Keys Tri-Mode with Knob Control RGB Wireless Mechanical Keyboard (Star Night) Sky Cyan Switch",
+        "type": "Mechanical",
+        "layout": "75% (81 keys)",
+        "keyswitch": "Sky Cyan Switch",
+        "keycaps": "Royal Blue, Brown, Black",
+        "backlighting": "RGB",
+        "connectivity": "Wired (USB-C)/Wireless",
+        "dimensions": "318mm x 127mm x 50mm",
+        "features": [
+            "Gasket-mounted Design: 75% layout with gasket material on the plate's edges for reduced vibrations, offering quieter, softer, and cushioned keystrokes.",
+            "Multi-device Connection: Connect up to 3 devices via Bluetooth 5.1 and switch easily using a knob. Also supports detachable USB-C wired and 2.4G wireless modes.",
+            "RK Linear SkyCyan Switch: Hot-swappable switches with consistent force, offering quiet, tight, and smooth typing with a clean, comfortable sound.",
+            "3750mAh High-capacity Battery: Provides up to 7 days of daily use for uninterrupted productivity and entertainment.",
+            "Double-layer Inclined Bottom Frame: Ergonomic design ensures comfort even without a wrist rest.",
+            "Hot-swap PCB: Replace 3-pin/5-pin switches freely without soldering, allowing for unique customizations.",
+            "RGB Backlit: 18 RGB backlight modes, 8 monochrome modes, 1 full-color mode, and 16 million colors for personalized illumination."
+        ],
+        "setup": [
+            "Connect the keyboard to your device via Bluetooth 5.1, or use the detachable USB-C cable for wired mode or 2.4G wireless mode for a stable connection.",
+            "For Bluetooth, pair up to 3 devices and easily switch between them using the knob control.",
+            "Ensure the keyboard is charged fully or connected via USB to power up and begin using.",
+            "For Windows or Mac compatibility, install the necessary drivers for full functionality.",
+            "Once connected, adjust the backlighting and customize the keyboard's settings for your preferences."
+        ],
+        "customization": [
+            "RGB Lighting Customization: Choose from 18 RGB lighting modes, 8 monochrome modes, or 1 full-color backlight mode. The keyboard supports 16 million color options for personalized lighting.",
+            "Adjusting Key Sensitivity/Actuation: Swap the SkyCyan switches on the hot-swap PCB to tailor the feel of each key to your liking, adjusting for the force and smoothness of each stroke.",
+            "Software Instructions: Use the companion software to remap keys, adjust lighting effects, and set macros. The software is intuitive and allows for easy configuration of the keyboard's many features."
+        ],
+        "maintenance": [
+            "Cleaning Instructions: Regularly wipe the surface of the keyboard with a soft microfiber cloth. For a deeper clean, remove the keycaps and clean them with warm water and mild soap. Allow keycaps to dry fully before reattaching them.",
+            "Troubleshooting: If the keyboard stops working, ensure it is properly connected via Bluetooth, USB, or 2.4G mode. Check the battery and re-charge if needed. If issues persist, reset the keyboard settings or check for driver updates."
+        ],
+        "compliance": [
+            "Safety Guidelines: Keep the keyboard dry and avoid exposure to liquids. Do not drop or expose the keyboard to extreme temperatures. Use the provided USB cable or a certified replacement.",
+            "Regulatory Compliance: The RK H81 keyboard complies with global safety and environmental standards, including FCC, CE, and RoHS regulations, ensuring it meets the required safety benchmarks."
+        ],
+        "price": 2750.00,
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "reviewer": "Kyle",
+                "comment": "Amazing keyboard! The feel of the keys is incredibly satisfying, and the RGB lighting is beautiful. It's perfect for long typing sessions."
+            },
+            {
+                "id": 2,
+                "rating": 5,
+                "reviewer": "Lily",
+                "comment": "I couldn't be happier with this keyboard. The switches are super responsive, and the overall design is sleek and modern. It's a joy to use."
+            },
+            {
+                "id": 3,
+                "rating": 5,
+                "reviewer": "Mark",
+                "comment": "This is hands down the best keyboard I've ever used. The key presses are crisp, and it feels so durable. Absolutely worth every cent."
+            },
+            {
+                "id": 4,
+                "rating": 5,
+                "reviewer": "Nina",
+                "comment": "I love everything about this keyboard—the feel, the sound, the customization options. It's a perfect addition to my setup!"
+            },
+            {
+                "id": 5,
+                "rating": 5,
+                "reviewer": "Oscar",
+                "comment": "Superb keyboard! Typing has never been more satisfying. The keys are smooth, the design is fantastic, and the RGB is stunning!"
+            }
+        ],
+        "image": "https://www.itech.ph/wp-content/uploads/2023/12/RK-Royal-Kludge-RK-H81-81-Keys-Tri-Mode-with-Knob-Control-RGB-Wireless-Mechanical-Keyboard-Star-Night-Sky-Cyan-Switch-jpg.webp"
+    },
+    {
+        "id": 4,
+        "title": "Royal Kludge RK96 RGB Limited Edition Tri-Mode Hot-Swappable Mechanical Keyboard – Forest Blue | Brown Switch",
+        "type": "Mechanical",
+        "layout": "96% (96 keys)",
+        "keyswitch": "Brown Switch",
+        "keycaps": "Forest Blue, Sky Blue, Dark Grey, Khaki",
+        "backlighting": "RGB",
+        "connectivity": "Wired (USB-C)/Wireless",
+        "dimensions": "395mm x 152mm x 50mm",
+        "features": [
+            "96 Keys, Redefine Full-size Keyboards: 96% layout with a number pad and offset arrow keys, designed for productivity and tactile typing.",
+            "Wireless Triple Mode: Supports Bluetooth 5.0, 2.4GHz dongle, and USB-C wired mode for versatile and stable connections.",
+            "Hot-swappable PCB: Easily replace 3-pin or 5-pin switches without soldering for unique keyboard customization.",
+            "Diverse RGB Backlit: 20 dynamic modes, adjustable brightness, and flowing speed, including music beat mode.",
+            "Hub Design: Features 2 USB pass-through ports and 1 Type-C port for connecting additional devices like mice or headphones.",
+            "High-capacity Battery: Up to 200 hours of use with backlight off, with a full charge taking only 6-7 hours.",
+            "DIY Software Support: Customize key assignments, keybinding, and backlight settings through dedicated software."
+        ],
+        "setup": [
+            "Connect the keyboard to your device using Bluetooth 5.0, 2.4GHz dongle, or USB-C wired mode for stable connections.",
+            "To pair via Bluetooth, hold the Bluetooth button and select one of the available slots to connect up to 3 devices.",
+            "Use the USB-C port for a wired connection to ensure constant power and responsiveness.",
+            "Ensure the keyboard is fully charged before use, or connect it to the computer via USB to power it.",
+            "Once connected, check the backlighting and key assignments to personalize the setup."
+        ],
+        "customization": [
+            "RGB Lighting Customization: Choose from 20 dynamic RGB backlighting modes, adjust brightness, and control the flowing speed. You can even use music beat mode to sync the lighting with your music.",
+            "Adjusting Key Sensitivity/Actuation: Swap switches on the hot-swap PCB to tailor the typing experience to your needs. Experiment with 3-pin or 5-pin switches for different actuation force and feel.",
+            "Software Instructions: Download and install the dedicated software to customize key assignments, keybinding, and backlight settings for personalized control over the keyboard."
+        ],
+        "maintenance": [
+            "Cleaning Instructions: Use a microfiber cloth to wipe down the keyboard regularly. For deeper cleaning, carefully remove the keycaps and clean them with warm, soapy water. Dry completely before reattaching.",
+            "Troubleshooting: If the keyboard isn’t responding, check the connection type (Bluetooth, 2.4GHz dongle, or USB-C) and ensure the keyboard is charged. Reset the keyboard if necessary, and check for software updates."
+        ],
+        "compliance": [
+            "Safety Guidelines: Avoid liquid exposure to the keyboard, and ensure it’s placed on a flat surface. Do not expose the keyboard to excessive heat or humidity, and avoid dropping it.",
+            "Regulatory Compliance: The RK96 keyboard complies with global safety and environmental regulations, including FCC, CE, and RoHS standards, ensuring it is safe for use in most regions."
+        ],
+        "price": 2950.00,
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "reviewer": "Sophia",
+                "comment": "This keyboard is incredible! The key presses are smooth, and the RGB is amazing. It really enhances my setup!"
+            },
+            {
+                "id": 2,
+                "rating": 5,
+                "reviewer": "Lucas",
+                "comment": "Absolutely love it. The typing experience is second to none, and it's perfect for gaming. Worth every penny!"
+            },
+            {
+                "id": 3,
+                "rating": 5,
+                "reviewer": "Olivia",
+                "comment": "Perfect mechanical keyboard! The tactile feedback is perfect, and I love how customizable the RGB lighting is. A must-buy!"
+            },
+            {
+                "id": 4,
+                "rating": 4,
+                "reviewer": "James",
+                "comment": "Great keyboard overall, but the spacebar is slightly wobbly. Still, the performance and build quality are top-notch."
+            },
+            {
+                "id": 5,
+                "rating": 5,
+                "reviewer": "Mia",
+                "comment": "Best keyboard I've used for work and gaming. The switches are smooth, and it's so comfortable to type on for long hours."
+            }
+        ],
+        "image": "https://www.itech.ph/wp-content/uploads/2023/11/RK-Royal-Kludge-RK96-RGB-Limited-Edition-Tri-Mode-Hot-Swappable-Mechanical-Keyboard-Forest-Blue-Brown-Switch-jpg.webp"
+    },
+    {
+        "id": 5,
+        "title": "Royal Kludge H81 81 Keys Tri-Mode with Knob Control RGB Wireless Mechanical Keyboard",
+        "type": "Mechanical",
+        "layout": "75% (81 keys)",
+        "keyswitch": "SkyCan Switch",
+        "keycaps": "White, Dark Grey",
+        "backlighting": "RGB",
+        "connectivity": "Wired (USB-C)/Wireless",
+        "dimensions": "343mm x 127mm x 50mm",
+        "features": [
+            "Multi-device Connection: Connect up to 3 devices via Bluetooth 5.1, switch between them easily using a knob, and enjoy multiple connection methods including USB-C wired and 2.4G wireless mode.",
+            "RK Linear SkyCyan Switch: Hot-swappable switches with consistent force, offering quiet, tight, and smooth typing. Ideal for home, shared workspaces, and light gaming.",
+            "3750mAh High-capacity Battery: Provides up to 7 days of daily use. Includes a double-layer inclined bottom frame for ergonomic typing without a wrist rest.",
+            "Hot-swap PCB: Freely replace 3-pin or 5-pin switches without soldering for a personalized typing experience.",
+            "RGB Backlit: Features 18 RGB backlight modes, 8 monochrome modes, 1 full-color mode, and 16 million customizable colors to match any style."
+        ],
+        "setup": [
+            "Connect the keyboard to your device using Bluetooth 5.1, 2.4GHz dongle, or USB-C wired mode for stable and reliable connections.",
+            "For Bluetooth connection, press the Bluetooth button and select one of the available slots to pair up to 3 devices.",
+            "If using the wired mode, simply plug the keyboard into the USB-C port for direct, uninterrupted connectivity.",
+            "Charge the keyboard fully for optimal battery performance or connect it to your device to power it directly.",
+            "Test all connections and ensure backlighting works as intended before starting the customization process."
+        ],
+        "customization": [
+            "RGB Lighting Customization: Choose from 18 RGB modes, 8 monochrome modes, and 1 full-color mode. Adjust brightness and customize 16 million color options to fit your workspace or gaming setup.",
+            "Adjusting Key Sensitivity/Actuation: Swap switches easily on the hot-swap PCB with 3-pin or 5-pin options for personalized key actuation, allowing for quiet, smooth typing that suits your preference.",
+            "Software Instructions: Utilize dedicated software to fine-tune key assignments, backlight modes, and key bindings for a completely personalized typing experience."
+        ],
+        "maintenance": [
+            "Cleaning Instructions: Clean the keyboard by wiping it with a soft, dry cloth. To clean deeper, carefully remove the keycaps and wash them with mild soap and water. Ensure all components are completely dry before reassembling.",
+            "Troubleshooting: If the keyboard isn’t functioning properly, check the battery level, ensure the proper connection method (Bluetooth, USB-C, or 2.4GHz), and reset if necessary. Refer to the manual or software for further steps."
+        ],
+        "compliance": [
+            "Safety Guidelines: Keep liquids away from the keyboard. Do not drop or expose the keyboard to high temperatures, moisture, or extreme environments. Use the keyboard on a flat surface for optimal performance.",
+            "Regulatory Compliance: The H81 keyboard complies with international safety standards, including FCC, CE, and RoHS certifications. Ensure the keyboard is used according to local guidelines."
+        ],
+        "price": 2750.00,
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "reviewer": "Ella",
+                "comment": "This keyboard is amazing! The keys feel great to type on, and the build quality is fantastic. RGB lighting is also a big plus!"
+            },
+            {
+                "id": 2,
+                "rating": 5,
+                "reviewer": "Liam",
+                "comment": "Absolutely perfect! The switches are so responsive, and the sound is just right. Definitely a great buy for any gamer or typist."
+            },
+            {
+                "id": 3,
+                "rating": 5,
+                "reviewer": "Noah",
+                "comment": "In love with this keyboard. The keycaps feel premium, the RGB is gorgeous, and it’s extremely durable. Highly recommend!"
+            },
+            {
+                "id": 4,
+                "rating": 3,
+                "reviewer": "Ava",
+                "comment": "It’s a decent keyboard, but I expected more for the price. The switches are a bit too loud, and the software is clunky. It's fine, but not great."
+            },
+            {
+                "id": 5,
+                "rating": 5,
+                "reviewer": "Oliver",
+                "comment": "Best mechanical keyboard I've used! The tactile feel is fantastic, and it's perfect for both work and gaming. Couldn't ask for more."
+            }
+        ],
+        "image": "https://www.itech.ph/wp-content/uploads/2022/10/RK-Royal-Kludge-H81-81-Keys-Tri-Mode-with-Knob-Control-RGB-Wireless-Mechanical-Keyboard-SkyCan-Switch.jpg"
+    },
+    {
+        "id": 6,
+        "title": "RYLO PRO S142 Membrane Gaming Keyboard & Mouse Tri-Mode Combo",
+        "type": "Membrane",
+        "layout": "98% (98 keys)",
+        "keyswitch": "None",
+        "keycaps": "Black",
+        "backlighting": "RGBe",
+        "connectivity": "Wired (USB-C)/Wireless",
+        "dimensions": "386mm x 160mm x 70mm",
+        "features": [
+            "Tri-Modes Gaming Keyboard: Includes 2.4GHz wireless dongle compatible with both keyboard and mouse.",
+            "Wireless Gaming Mouse: Features 7 programmable buttons and adjustable DPI up to 4800.",
+            "K515 98-keys Tri-Mode RGB Membrane Keyboard: Provides flexibility with multiple connection modes.",
+            "4 Onboard Macro Keys: Customize commands for efficient gaming and productivity.",
+            "26 Anti-ghost Keys: Ensures accurate keypresses even during intense gaming sessions.",
+            "Dedicated Media Controls: Easily manage audio and media without leaving your game.",
+            "Software Supported: Enables advanced customization for both the keyboard and mouse."
+        ],
+        "setup": [
+            "Connect the keyboard and mouse using the included 2.4GHz wireless dongle for seamless communication between both devices.",
+            "Alternatively, use the USB-C wired mode for both the keyboard and mouse for uninterrupted gaming or productivity.",
+            "For Bluetooth connection, follow the pairing process to connect the devices with compatible devices in wireless mode.",
+            "Ensure both the keyboard and mouse are fully charged or connected to a power source before starting setup.",
+            "Once connected, check if both devices respond correctly and backlighting is functional."
+        ],
+        "customization": [
+            "RGB Lighting Customization: Adjust dynamic backlighting with RGB effects to match your gaming setup. Customize color schemes to suit your mood or preference.",
+            "Adjusting Key Sensitivity/Actuation: While the membrane keys do not have mechanical actuation sensitivity, use the 4 programmable macro keys for added efficiency.",
+            "Software Instructions: Download and install the provided software to customize key assignments, macro programming, DPI settings for the mouse, and lighting effects for both the keyboard and mouse."
+        ],
+        "maintenance": [
+            "Cleaning Instructions: Clean the keyboard and mouse with a dry microfiber cloth to remove dust and debris. Use compressed air to clean the spaces between keys and buttons.",
+            "Troubleshooting: If the keyboard or mouse isn't responding, check the connection mode and ensure the device is powered. Reconnect the wireless dongle and restart both devices if necessary. If wired, ensure the USB-C connection is secure."
+        ],
+        "compliance": [
+            "Safety Guidelines: Keep the keyboard and mouse dry and avoid exposure to liquids or extreme temperatures. Use on a flat surface for optimal performance.",
+            "Regulatory Compliance: The RYLO PRO S142 gaming combo complies with international safety standards such as FCC, CE, and RoHS. Always use the devices as per local regulatory guidelines."
+        ],
+        "price": 2400.00,
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "reviewer": "Emily",
+                "comment": "This keyboard is exactly what I needed for work. The keys are soft and quiet, perfect for typing long documents without disturbing others. It's comfortable to use, and the price is unbeatable for the quality."
+            },
+            {
+                "id": 2,
+                "rating": 4,
+                "reviewer": "Ethan",
+                "comment": "I’ve been using this keyboard for a few weeks now, and I’m generally happy with it. The key travel is nice, and the overall feel is great for typing. My only complaint is that the keys could be a little more responsive, but for the price, it’s a solid option."
+            },
+            {
+                "id": 3,
+                "rating": 3,
+                "reviewer": "Olivia",
+                "comment": "Overall, this is a decent membrane keyboard. The typing experience is okay—keys are quiet, but they feel a bit too soft for my liking. I don’t get much feedback from the keys, and it feels somewhat sluggish when typing quickly. The build quality is good, but the key presses aren’t as satisfying as I hoped. If you’re just looking for a basic keyboard for casual use, it’s fine, but if you type a lot or need something more responsive, you might want to consider a different option."
+            },
+            {
+                "id": 4,
+                "rating": 5,
+                "reviewer": "James",
+                "comment": "Perfect membrane keyboard for my home office setup. It's quiet, comfortable, and has a solid build. I love how smooth the keys feel, and I’ve been able to type for hours without feeling any strain. Highly recommend for anyone needing an affordable yet reliable keyboard."
+            },
+            {
+                "id": 5,
+                "rating": 4,
+                "reviewer": "Sarah",
+                "comment": "Good keyboard overall, especially for the price. The keys are quiet, and the typing experience is smooth, but I wish the key travel was a little bit more pronounced. It’s still great for everyday tasks and casual gaming, though. Definitely worth the investment."
+            }
+        ],
+        "image": "https://redragonshop.com/cdn/shop/files/RedragonS142WirelessGamingKeyboard_MouseCombo_1_4c660e2d-f531-43a1-9b71-038073881f7d.png?v=1732070383"
+    },
+    {
+        "id": 7,
+        "title": "SHIVA K512 Membrane Gaming Keyboard",
+        "type": "Membrane",
+        "layout": "100% (104 keys)",
+        "keyswitch": "None",
+        "keycaps": "Black",
+        "backlighting": "RGB",
+        "connectivity": "Wired (USB-C)/Wireless",
+        "dimensions": "464mm x 213mm x 70mm",
+        "features": [
+            "Full Dynamic RGB Backlighting: Customize vibrant lighting effects to enhance your gaming or typing experience.",
+            "Detachable Wrist Rest: Provides ergonomic support for long sessions, with the option to remove for a compact setup.",
+            "Mechanical Feeling: Delivers a tactile and satisfying typing experience without mechanical switches.",
+            "Dedicated Media Controls: Easily adjust volume and media playback without interrupting your workflow or game.",
+            "26 Anti-ghost Keys: Ensures accurate and simultaneous keypresses for smooth performance during intense use."
+        ],
+        "setup": [
+            "Connect the keyboard using the USB-C wired connection or pair it with the device via wireless mode for flexibility.",
+            "If using wireless mode, ensure that the keyboard is paired correctly with your device before use.",
+            "For wired setup, simply plug the USB-C cable into the device to begin typing immediately.",
+            "Make sure the keyboard is placed on a flat surface and adjust the detachable wrist rest for added comfort.",
+            "Verify that all keys are responsive and the RGB lighting is functional after connection."
+        ],
+        "customization": [
+            "RGB Lighting Customization: Access the keyboard’s software to personalize RGB lighting effects. Choose from a variety of dynamic lighting modes to enhance your gaming or working environment.",
+            "Adjusting Key Sensitivity/Actuation: As the keyboard uses membrane switches, it doesn’t feature mechanical actuation adjustments, but you can program specific actions for better responsiveness.",
+            "Software Instructions: Download and install the keyboard’s software to customize key assignments, create macros, and configure lighting modes to match your preferences."
+        ],
+        "maintenance": [
+            "Cleaning Instructions: Use a dry microfiber cloth to clean the keyboard surface. For more thorough cleaning, use compressed air to remove debris from the gaps between keys.",
+            "Troubleshooting: If the keyboard isn't responding, check the connection (wired or wireless) and ensure the keyboard is properly powered. Try restarting the system or reconnecting the keyboard."
+        ],
+        "compliance": [
+            "Safety Guidelines: Avoid spilling liquids on the keyboard and keep it in a dry, well-ventilated area. For long typing sessions, take regular breaks to avoid strain.",
+            "Regulatory Compliance: The SHIVA K512 Membrane Gaming Keyboard complies with safety and environmental standards, including RoHS, CE, and FCC. Follow the local guidelines for use and disposal."
+        ],
+        "price": 2200.00,
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "reviewer": "Benjamin",
+                "comment": "I’m really impressed with this membrane keyboard! The keys feel great to type on—soft yet responsive. It’s quiet, which is a huge plus for me since I work in a shared space. For the price, this keyboard delivers excellent performance."
+            },
+            {
+                "id": 2,
+                "rating": 3,
+                "reviewer": "Isabella",
+                "comment": "It’s an okay keyboard. The keys are fairly quiet, but they feel a bit too soft for my liking. I don’t get much feedback when typing quickly, and it’s not as comfortable as I hoped. It works fine for light tasks, but if you're someone who types a lot, you might want to try something else."
+            },
+            {
+                "id": 3,
+                "rating": 4,
+                "reviewer": "Liam",
+                "comment": "Good keyboard for the price. The key presses are smooth, and it’s quiet enough not to disturb anyone around me. The only downside is that the build quality feels a little cheap, but it’s still a solid option for casual use and typing."
+            }
+        ],
+        "image": "https://redragonshop.com/cdn/shop/products/redragonk512manual.png?v=1609237143"
+    },
+    {
+        "id": 8,
+        "title": "SHIVA K512 WHITE Membrane Gaming Keyboard",
+        "type": "Membrane",
+        "layout": "100% (104 keys)",
+        "keyswitch": "None",
+        "keycaps": "Whiten",
+        "backlighting": "RGB",
+        "connectivity": "Wired (USB-C)/Wireless",
+        "dimensions": "464mm x 213mm x 70mm",
+        "features": [
+            "6 Onboard Macro Keys: Program G1~G6 keys on the fly without additional software, supporting various customizable macros.",
+            "True RGB Backlight: Full dynamic RGB lighting with 7 pre-set modes and 6 customizable slots, plus adjustable brightness.",
+            "26 Anti-ghost Keys: Ensures accurate and simultaneous keypresses for smooth gaming performance.",
+            "Dedicated Media Controls: Play, pause, and skip multimedia directly from the keyboard for uninterrupted gameplay.",
+            "Detachable Wrist Rest: Ergonomically designed, magnetically attached for easy setup, providing additional comfort during long use.",
+            "Professional Software: Customize backlight effects and configure macros with dedicated software for enhanced functionality.",
+            "Durable Design: Tested for 10 million keystrokes with double-shot injection molded keycaps that never fade."
+        ],
+        "setup": [
+            "Connect the keyboard using the USB-C wired connection or pair it with the device via wireless mode.",
+            "For wireless setup, ensure Bluetooth is enabled on your device and pair the keyboard accordingly.",
+            "For wired mode, plug the USB-C cable into the keyboard and device to begin using the keyboard instantly.",
+            "Position the keyboard on a flat surface and attach the detachable wrist rest magnetically for added comfort during use.",
+            "Verify that all keys are functioning and RGB lighting is working after connection."
+        ],
+        "customization": [
+            "RGB Lighting Customization: Utilize the keyboard's software to choose from 7 pre-set RGB lighting modes, or customize your own with 6 available slots. Adjust brightness levels to suit your preferences.",
+            "Adjusting Key Sensitivity/Actuation: The SHIVA K512 WHITE is a membrane keyboard, so there are no actuation adjustments, but you can program macros to optimize key response time.",
+            "Software Instructions: Download and install the software to program the 6 onboard macro keys (G1~G6), adjust RGB settings, and fine-tune your keyboard's functionality to meet your needs."
+        ],
+        "maintenance": [
+            "Cleaning Instructions: Gently wipe the keyboard surface with a microfiber cloth. Use compressed air to clean between the keys for debris removal.",
+            "Troubleshooting: If the keyboard is unresponsive, check the connection (wired or wireless). Ensure that it is powered and properly connected to the device. Restart the system or reconnect the keyboard if necessary."
+        ],
+        "compliance": [
+            "Safety Guidelines: Keep the keyboard away from liquids to avoid damage. For long gaming or typing sessions, take regular breaks to reduce strain on your hands and wrists.",
+            "Regulatory Compliance: The SHIVA K512 WHITE Membrane Gaming Keyboard complies with international safety and environmental standards, including RoHS, CE, and FCC regulations. Follow local disposal guidelines for the product."
+        ],
+        "price": 2400.00,
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "reviewer": "David",
+                "comment": "This membrane keyboard is fantastic! It's super quiet, which is great for typing in a shared space. The key presses feel smooth and responsive. It's also very comfortable for long typing sessions. Highly recommend it if you're looking for an affordable, reliable keyboard!"
+            },
+            {
+                "id": 2,
+                "rating": 4,
+                "reviewer": "Sophia",
+                "comment": "Overall, this is a solid keyboard. The keys are quiet and have a good amount of travel, making typing comfortable. The only downside is that the build quality feels a little light, and the keycaps could be more durable. But for the price, it’s a great choice!"
+            },
+            {
+                "id": 3,
+                "rating": 3,
+                "reviewer": "Ethan",
+                "comment": "The keyboard works fine for basic use, but I was expecting a bit more. The keys feel a little mushy, and there’s not enough feedback when typing quickly. It’s fine for light work or casual use, but I wouldn’t recommend it for long typing sessions or gaming."
+            }
+
+        ],
+        "image": "https://redragonshop.com/cdn/shop/products/whitekeyboard.png?v=1621668482"
+    },
+    {
+        "id": 9,
+        "title": "ADITYA K513 Membrane Gaming Keyboard",
+        "type": "Membrane",
+        "layout": "100% (104 keys",
+        "keyswitch": "Blue Switch",
+        "keycaps": "Black",
+        "backlighting": "RGB",
+        "connectivity": "Wired (USB-C)/Wireless",
+        "dimensions": "441mm x 165mm x 35mm",
+        "features": [
+            "5 Extra On-Board Macro G Keys: Easily program additional functions on the fly for quick access during gaming or work.",
+            "Dedicated Media Control: Adjust audio and media playback directly from the keyboard without interrupting your activity.",
+            "Solid Metal Top Case: Provides a sturdy and durable design with a premium feel for long-lasting performance.",
+            "26 Anti-ghost Keys: Ensures up to 26 simultaneous keypresses for flawless performance during intense gaming sessions.",
+            "Full Dynamic RGB Backlighting: Customize vibrant lighting effects with full RGB options for a personalized look.",
+            "Pro Software Standby: Supports advanced software for further customization of macros, backlighting, and more."
+        ],
+        "setup": [
+            "Connect the keyboard to your computer using the USB-C wired connection or pair it wirelessly through Bluetooth.",
+            "For wireless setup, ensure Bluetooth is enabled on your device and follow the pairing instructions.",
+            "In wired mode, simply plug the USB-C cable into the keyboard and the device for instant use.",
+            "Position the keyboard comfortably on your desk, adjusting the angle if necessary for ergonomic typing.",
+            "Ensure that all keys are functioning properly and that the RGB lighting is active upon connection."
+        ],
+        "customization": [
+            "RGB Lighting Customization: Use the software to create your own custom RGB lighting effects. The keyboard supports full dynamic RGB backlighting, allowing for various colors and lighting modes.",
+            "Adjusting Key Sensitivity/Actuation: Although the ADITYA K513 uses membrane switches, you can program the extra macro keys for enhanced functionality and quick commands.",
+            "Software Instructions: Download the accompanying software to set up and manage macros for the 5 extra onboard macro keys, adjust backlighting, and customize additional keyboard settings."
+        ],
+        "maintenance": [
+            "Cleaning Instructions: Regularly clean the surface of the keyboard with a soft microfiber cloth. Use compressed air to remove dust and debris from between the keys.",
+            "Troubleshooting: If the keyboard does not respond, check the connection (wired or wireless) and verify that the keyboard is powered. Restart the system or reconnect the device if needed."
+        ],
+        "compliance": [
+            "Safety Guidelines: Avoid exposure to moisture to prevent damage to the keyboard. For comfort during extended use, take frequent breaks to avoid strain on your wrists.",
+            "Regulatory Compliance: The ADITYA K513 complies with safety standards and regulations, including RoHS, CE, and FCC certifications. Please dispose of the keyboard according to local electronic waste guidelines."
+        ],
+        "price": 1900.00,
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "reviewer": "Charlotte",
+                "comment": "This membrane keyboard is fantastic for the price! The keys are quiet and smooth, perfect for typing long documents without disturbing anyone. The build quality is solid, and the layout is very comfortable."
+            },
+            {
+                "id": 2,
+                "rating": 4,
+                "reviewer": "Jack",
+                "comment": "I’m impressed with this keyboard. The membrane switches are surprisingly responsive, and the overall feel is soft yet firm. Only downside is the lack of customization options for the keys."
+            },
+            {
+                "id": 3,
+                "rating": 3,
+                "reviewer": "Sophia",
+                "comment": "It’s a decent keyboard for casual use, but the key presses feel a bit mushy compared to what I’m used to. The lack of tactile feedback is noticeable when gaming. Overall, it’s fine for everyday tasks but not for high-performance gaming."
+            },
+            {
+                "id": 4,
+                "rating": 2,
+                "reviewer": "Henry",
+                "comment": "I had high hopes for this keyboard, but I was quite disappointed. The keys are soft but feel unresponsive at times, especially during typing sessions that require more pressure. After a few weeks of use, the keys started to feel even more mushy, and I began to notice some issues with key registration. It’s okay for casual typing, but I wouldn't recommend it for anyone who types a lot or needs precision. The build quality is decent, but the overall typing experience left me wanting more. If you're looking for a membrane keyboard that’s responsive and reliable, I’d suggest looking elsewhere."
+            },
+            {
+                "id": 5,
+                "rating": 5,
+                "reviewer": "Mason",
+                "comment": "This is the best membrane keyboard I’ve used! The keys are quiet, and the typing experience is smooth. It’s perfect for my work environment where I need to keep noise to a minimum. Great value for the price."
+            }
+        ],
+        "image": "https://redragonshop.com/cdn/shop/files/ADITYAK513MembraneGamingKeyboard3.png?v=1693815011"
+    },
+    {
+        "id": 10,
+        "title": "SHIVA K515 Membrane Gaming Keyboard",
+        "type": "Membrane",
+        "layout": "98% (98 keys)",
+        "keyswitch": "None",
+        "keycaps": "Black",
+        "backlighting": "RGB",
+        "connectivity": "Wired (USB-C)/Wireless",
+        "dimensions": "383mm x 156mm x 40mm",
+        "features": [
+            "98 Keys Membrane Gaming Keyboard: Offers a full layout with a membrane design that simulates a mechanical feel.",
+            "Mechanical-Feel with Smooth Linear Switch: Delivers a smooth and responsive typing experience similar to mechanical switches.",
+            "4 On-Board Macro Keys: Easily program macro functions directly on the keyboard for quick access.",
+            "Dedicated Multimedia Keys: Control your media playback with dedicated buttons for convenience.",
+            "Full Dynamic RGB Backlighting: Customize vibrant lighting effects with dynamic RGB backlighting.",
+            "Detachable Wrist Rest: Ergonomically designed for comfort during long gaming or typing sessions, with a detachable feature for flexibility.",
+            "Professional Software Supported: Customize macros, backlighting, and settings with professional software for enhanced functionality."
+        ],
+        "setup": [
+            "Connect the SHIVA K515 to your device using the USB-C cable for wired mode or pair it wirelessly via Bluetooth for wireless mode.",
+            "Ensure Bluetooth is enabled on your device for wireless connection, then follow the pairing instructions.",
+            "Once connected, the keyboard's RGB lighting should activate, indicating successful setup.",
+            "Position the keyboard ergonomically on your desk. Use the detachable wrist rest for added comfort during extended sessions.",
+            "Ensure that the keyboard is working properly by testing key functions and adjusting settings as needed."
+        ],
+        "customization": [
+            "RGB Lighting Customization: Use the software to create custom RGB lighting effects and choose from a variety of dynamic modes for a personalized setup.",
+            "Adjusting Key Sensitivity/Actuation: The SHIVA K515 offers a smooth linear switch experience. While you cannot adjust actuation directly, you can program macros for quick responses and ease of use.",
+            "Software Instructions: Download and install the keyboard’s professional software to manage key assignments, create macros, and adjust backlighting effects for a truly personalized experience."
+        ],
+        "maintenance": [
+            "Cleaning Instructions: Clean the keyboard by wiping down the surface with a soft microfiber cloth. Use compressed air to clear debris from between the keys and vents.",
+            "Troubleshooting: If the keyboard fails to respond, check the connection and try restarting your device or reconnecting the keyboard. If using Bluetooth, verify that Bluetooth is enabled on the device."
+        ],
+        "compliance": [
+            "Safety Guidelines: To ensure safe use, avoid exposing the keyboard to moisture or excessive heat. Take breaks during long sessions to prevent strain on your wrists.",
+            "Regulatory Compliance: The SHIVA K515 is certified to meet RoHS, CE, and FCC standards. Please follow local electronic waste disposal regulations when disposing of the keyboard."
+        ],
+        "price": 1800.00,
+        "reviews": [
+            {
+                "id": 1,
+                "rating": 5,
+                "reviewer": "Alice",
+                "comment": "I absolutely love this keyboard! The keys are soft yet responsive, and the typing experience is smooth. It's very quiet, which is perfect for my office. For the price, it’s an incredible deal!"
+            },
+            {
+                "id": 2,
+                "rating": 4,
+                "reviewer": "Benjamin",
+                "comment": "Solid keyboard for the price. The keys have just the right amount of resistance, and it's comfortable for long typing sessions. Only issue is that it could be a bit more durable, but otherwise a great choice."
+            },
+            {
+                "id": 3,
+                "rating": 5,
+                "reviewer": "Chloe",
+                "comment": "This keyboard has been fantastic for my daily work. It’s smooth, quiet, and the keys feel very responsive. I can type for hours without any discomfort. Totally worth the investment!"
+            },
+            {
+                "id": 4,
+                "rating": 4,
+                "reviewer": "Daniel",
+                "comment": "Great membrane keyboard! The typing experience is much better than I expected. The only downside is that the build quality is a little light, but overall, it’s a solid performer for the price."
+            },
+            {
+                "id": 5,
+                "rating": 5,
+                "reviewer": "Ella",
+                "comment": "I’ve been using this keyboard for a few weeks now, and I’m very happy with it. The key presses are quiet, smooth, and the ergonomics are spot on. It’s perfect for both work and casual gaming."
+            },
+            {
+                "id": 6,
+                "rating": 4,
+                "reviewer": "Felix",
+                "comment": "Nice membrane keyboard with great typing feel. It’s responsive and relatively quiet, which is perfect for shared spaces. The only thing I wish for is a more solid build, but for the price, it’s a great deal."
+            },
+            {
+                "id": 7,
+                "rating": 5,
+                "reviewer": "Grace",
+                "comment": "Couldn’t be happier with this keyboard. It’s quiet, comfortable, and the keys feel really nice to press. It's perfect for office work and doesn't make any noise, which is a huge plus in my environment."
+            }
+        ],
+        "image": "https://redragonshop.com/cdn/shop/files/SHIVAK515MembraneGamingKeyboard_2_ef94fa2a-efca-446e-8e36-a812e69eea8f.png?v=1720680803"
+    }
+]

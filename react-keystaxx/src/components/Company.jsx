@@ -1,4 +1,10 @@
 import { Link } from "react-router-dom"
+import default_image from "../assets/image/default.jpg"
+import rsalcedo from "../assets/image/rsalcedo.jpg"
+import wdosil from "../assets/image/wdosil.jpg"
+import afajardo from "../assets/image/afajardo.png"
+import jgonzaga from "../assets/image/jgonzaga.jpg"
+import ibringas from "../assets/image/ibringas.jpg"
 
 const employees = [
     {
@@ -43,8 +49,8 @@ const employees = [
             "Proficient understanding in BI tools (Microsoft Power BI, SAP Business Objects)",
             "Advanced spreadsheet skills (Microsoft Excel, Google Sheets)"
         ],
-        contact: [],
-        image: "../assets/image/rsalcedo.jpg"
+
+        image: rsalcedo
     },
     {
         id: 2,
@@ -80,8 +86,7 @@ const employees = [
             }
         ],
         skills: [],
-        contact: [],
-        image: "..assets/image/wdosil.jpg"
+        image: wdosil
     },
     {
         id: 3,
@@ -117,8 +122,7 @@ const employees = [
             }
         ],
         skills: [],
-        contact: [],
-        image: "../assets/image/afajardo.png"
+        image: afajardo
     },
     {
         id: 4,
@@ -154,8 +158,7 @@ const employees = [
             }
         ],
         skills: [],
-        contact: [],
-        image: ""
+        image: default_image
     },
     {
         id: 5,
@@ -191,8 +194,7 @@ const employees = [
             }
         ],
         skills: [],
-        contact: [],
-        image: "../assets/jgonzaga.jpg"
+        image: jgonzaga
     },
     {
         id: 6,
@@ -228,8 +230,7 @@ const employees = [
             }
         ],
         skills: [],
-        contact: [],
-        image: ""
+        image: ibringas
     }
     
 ]
@@ -244,15 +245,12 @@ export default function Company() {
                         <>
                         <div className="company-member-info">
                             <div className="company-info-image">
-                                {/* 
                                 <img
                                     src={employee.image}
                                     alt={employee.name}
-                                    position={employee.name}
+                                    title={employee.name}
                                     style={{ width: "200px", height: "200px" }}
                                 />
-                                */}
-                                <img src="https://placehold.co/300x300/png" alt="placeholder" />
                             </div>
                             <div className="company-member-text">
                                 <h2>{employee.name}</h2>

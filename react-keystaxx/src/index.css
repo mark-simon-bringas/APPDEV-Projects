@@ -288,6 +288,12 @@ nav ul li a {
   background-color: var(--lapis-lazuli-dark);
 }
 
+/*COMPANY*/
+.company-info-image img {
+  object-fit: cover;
+  object-position: center;
+}
+
 /*DEVELOPER*/
 .developer-image img {
   object-fit: cover;
