@@ -10,7 +10,6 @@ export default function Employee() {
                 <h1>{employee.name}</h1>
                 <p>{employee.residence}</p>
                 <p>{employee.email}</p>
-                <p>Contact: {employee.contact}</p>
                 <hr />
 
                 <h2>Objective</h2>

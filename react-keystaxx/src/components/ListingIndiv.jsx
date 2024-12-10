@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useLocation } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 
 export default function ListingIndiv() {
     const location = useLocation()
@@ -7,6 +7,33 @@ export default function ListingIndiv() {
 
     const calculateAverageRating = (reviews) => {
         return reviews.reduce((sum, review) => sum + review.rating, 0) / reviews.length
+    }
+
+    const renderStarRating = (averageRating) => {
+        const totalStars = 5;
+        const fullStars = Math.floor(averageRating)
+        const halfStars = averageRating % 1 >= 0.5 ? 1 : 0
+        const emptyStars = totalStars - fullStars - halfStars
+
+        return (
+            <div className="star-rating">
+                {
+                    Array(fullStars).fill("★").map((_, index) => (
+                        <span key={`filled-${index}`} className="filled-star">★</span>
+                    ))
+                }
+                {
+                    Array(halfStars).fill("☆").map((_, index) => (
+                        <span key={`half-${index}`} className="half-star">★</span> 
+                    ))
+                }
+                {
+                    Array(emptyStars).fill("☆").map((_, index) => (
+                        <span key={`empty-${index}`} className="empty-star">☆</span>
+                    ))
+                }
+            </div>
+        );
     }
 
     const [averageRating, setAverageRating] = useState(calculateAverageRating(keyboard.reviews))
@@ -50,7 +77,7 @@ export default function ListingIndiv() {
                 return (
                     <>
                         <div>
-                            <h3>{userReview.name} - {userReview.rating} / 5</h3>
+                            <h3>{userReview.name} - {userReview.rating}{renderStarRating(userReview.rating)}</h3>
                             <p><i>{userReview.date}</i></p>
                             <p>{userReview.comment}</p>
                         </div>
@@ -59,8 +86,6 @@ export default function ListingIndiv() {
             })
         )
     }
-
-
 
     return (
         <>
@@ -72,11 +97,12 @@ export default function ListingIndiv() {
                     style={{ width: "800px", height: "800px" }}
                 />
             </div>
+
             <div className="product-title">
                 <h1>{keyboard.title}</h1>
             </div>
             <div className="product-info">
-                <h3>Rating: {averageRating.toFixed(2)} / 5</h3>
+                <h3>Rating: {averageRating.toFixed(2)}{renderStarRating(averageRating)}</h3>
                 <h3>₱ {keyboard.price.toFixed(2)}</h3>
                 <div className="product-info-specs">
                     <p><strong>Type: </strong>{keyboard.type}</p>
@@ -88,6 +114,7 @@ export default function ListingIndiv() {
                     <p><strong>Dimensions: </strong>{keyboard.dimensions}</p>
                 </div>
             </div>
+
             <div className="add-to-cart">
                 Quantity:&nbsp;
                 <button id="decreaseQty" onClick={decrement}> - </button>
@@ -99,8 +126,11 @@ export default function ListingIndiv() {
                 />
                 <button id="increaseQty" onClick={increment}> + </button>
                 <br />
-                <button id="addToCart">Purchase</button>
+                <Link to={`/listing/${keyboard.id}/payment`} state={{ keyboard, quantity }}>
+                    <button id="addToCart">Purchase</button>
+                </Link>
             </div>
+
             <div className="product-features">
                 <h2>Features</h2>
                 <ul>
@@ -111,6 +141,7 @@ export default function ListingIndiv() {
                     }
                 </ul>
             </div>
+
             <div className="product-manual">
                 <div className="product-manual-setup">
                     <h2>Setup Instructions</h2>
@@ -162,18 +193,20 @@ export default function ListingIndiv() {
                     <p><strong>Customer Support Email: </strong>support@keystaxx.com</p>
                 </div>
             </div>
+
             <div className="product-reviews">
                 <h2>Reviews</h2>
                 {
                     keyboard.reviews.map((review) => (
                         <div key={review.id}>
-                            <h3>{review.reviewer} - {review.rating} / 5</h3>
+                            <h3>{review.reviewer} - {review.rating}{renderStarRating(review.rating)}</h3>
                             <p>{review.comment}</p>
                         </div>
                     ))
                 }
                 {renderUserReview()}
             </div>
+
             <div className="product-reviews-user">
                 <h2>Add a Review</h2>
                 Name:&nbsp;<input type="text" name="name" id="name" />

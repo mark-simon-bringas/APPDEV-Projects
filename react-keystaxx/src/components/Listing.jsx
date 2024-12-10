@@ -1,11 +1,45 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom'
-import keyboardsData from '../assets/json/keyboards.json'
+import keyboardsData from '../assets/data/keyboards.json'
 
 export default function Listing() {
     const [keyboards] = useState(keyboardsData)
     const mechanicalKeyboards = keyboards.filter((keyboard) => keyboard.type === "Mechanical");
     const membraneKeyboards = keyboards.filter((keyboard) => keyboard.type === "Membrane");
+
+    // Function to calculate average rating
+    const calculateAverageRating = (reviews) => {
+        const sum = reviews.reduce((acc, review) => acc + review.rating, 0);
+        return (sum / reviews.length).toFixed(2);
+    }
+
+    // Function to generate star rating
+    const renderStarRating = (averageRating) => {
+        const totalStars = 5;
+        const fullStars = Math.floor(averageRating)
+        const halfStars = ((averageRating % 1) >= 0.5) ? 1 : 0
+        const emptyStars = totalStars - fullStars - halfStars
+
+        return (
+            <div className="star-rating">
+                {
+                    Array(fullStars).fill("★").map((_, index) => (
+                        <span key={`filled-${index}`} className="filled-star">★</span>
+                    ))
+                }
+                {
+                    Array(halfStars).fill("☆").map((_, index) => (
+                        <span key={`half-${index}`} className="half-star">★</span> 
+                    ))
+                }
+                {
+                    Array(emptyStars).fill("☆").map((_, index) => (
+                        <span key={`empty-${index}`} className="empty-star">☆</span>
+                    ))
+                }
+            </div>
+        );
+    };
 
     return (
         <>
@@ -18,6 +52,8 @@ export default function Listing() {
                     <div className="product-list-card">
                         {
                             mechanicalKeyboards.map((keyboard) => {
+                                const averageRating = calculateAverageRating(keyboard.reviews)
+                                
                                 return (
                                     <div key={keyboard.id} className="product-card">
                                         <div className="product-list-image">
@@ -30,6 +66,7 @@ export default function Listing() {
                                         </div>
                                         <strong>{keyboard.title}</strong><br />
                                         &#8369; {keyboard.price.toFixed(2)}<br />
+                                        <strong>Rating: </strong>{averageRating}{renderStarRating(averageRating)}<br />
                                         <Link to={`/listing/${keyboard.id}`} state={{ keyboard }}>
                                             <button>Learn More</button>
                                         </Link>
@@ -39,13 +76,14 @@ export default function Listing() {
                         }
                     </div>
                 </div>
-                <hr />
+                <br />
                 {/* Membrane Keyboard */}
                 <div className="membrane-keyboards">
                     <h2>Membrane Keyboards</h2>
                     <div className="product-list-card">
                         {
                             membraneKeyboards.map((keyboard) => {
+                                const averageRating = calculateAverageRating(keyboard.reviews)
                                 return (
                                     <div key={keyboard.id} className="product-card">
                                         <div className="product-list-image">
@@ -58,8 +96,9 @@ export default function Listing() {
                                         </div>
                                         <strong>{keyboard.title}</strong><br />
                                         &#8369; {keyboard.price.toFixed(2)}<br />
+                                        <strong>Rating: </strong>{averageRating}{renderStarRating(averageRating)}<br />
                                         <Link to={`/listing/${keyboard.id}`} state={{ keyboard }}>
-                                            <button>Purchase</button>
+                                            <button>Learn More</button>
                                         </Link>
                                     </div>
                                 );

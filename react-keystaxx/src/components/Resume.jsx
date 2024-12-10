@@ -61,13 +61,13 @@ export default function Resume() {
                 <p><i>December 2024</i></p>
                 <ul>
                     <li>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est velit iure voluptate ut doloribus. Rem aut corporis sequi libero beatae. Magnam aliquam, reprehenderit velit dicta dolor voluptas dolorum quam perspiciatis.
+                        Developed a website for a keyboard-selling company using the React framework.
                     </li>
                     <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus numquam molestiae laboriosam quos quae officiis veritatis dolorum libero. Consectetur laudantium alias cum ullam molestiae neque accusantium repellendus dolore unde vel?
+                        Integrated features for product display, user-friendly navigation, and seamless online shopping experience.
                     </li>
                     <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non perferendis officia recusandae, ducimus reprehenderit accusamus. Voluptatum corporis, accusamus dolorem vero ullam quasi, voluptas eum placeat, rerum nam possimus dicta!
+                        Focused on front-end development to create a responsive and interactive user interface.
                     </li>
                 </ul>
                 
@@ -75,13 +75,13 @@ export default function Resume() {
                 <p><i>October 2024</i></p>
                 <ul>
                     <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident inventore nam, incidunt nihil tenetur unde debitis animi nesciunt atque! Iure necessitatibus laborum maxime at eveniet enim aperiam fugit veritatis corrupti!
+                        Developed a Pokémon database website using the React framework.
                     </li>
                     <li>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure laudantium quam similique repellendus possimus dicta quod ducimus ad nostrum aliquam expedita officia animi voluptate unde ullam voluptatum, ipsam sit eum.
+                        Integrated Axios to fetch data from the PokéAPI and display it dynamically.
                     </li>
                     <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi a aliquam doloremque quia praesentium, inventore sed excepturi quidem aliquid corrupti quasi odio, omnis blanditiis voluptatibus perspiciatis. Eius animi magni at.    
+                        Implemented search functionality, filtering, and sorting of Pokémon data for an enhanced user experience.
                     </li>
                 </ul>
 
@@ -91,13 +91,13 @@ export default function Resume() {
                 <p><i>April 2024</i></p>
                 <ul>
                     <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sint facere, quae perferendis incidunt et iusto vitae, laboriosam aspernatur, nesciunt itaque corporis. Mollitia reprehenderit nisi, culpa earum odit necessitatibus eaque.
+                        Created a space-related research blog showcasing astronomical discoveries using classic HTML, CSS, and JavaScript.
                     </li>
                     <li>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, eum? Sit optio impedit neque enim. Esse dolores delectus saepe nostrum quibusdam eveniet magni, autem sequi aspernatur minus vero nihil fugiat.
+                        Integrated the Astronomy Picture of the Day API to display daily images of space and provide related descriptions.
                     </li>
                     <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe commodi, in quae voluptate porro unde officia expedita consequuntur doloremque, animi sapiente cumque hic accusamus placeat iste rerum tempore, laboriosam cum.
+                        Used the MapTiler SDK JavaScript library to display interactive maps of celestial events and space imagery.
                     </li>
                 </ul>
                 <hr />

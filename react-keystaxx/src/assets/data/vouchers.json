@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "code": "XXATSYEK",
+        "discount": 0.2
+    },
+    {
+        "id": 2,
+        "code": "ILUVKEEBS",
+        "discount": 0.2
+    },
+    {
+        "id": 3,
+        "code": "SIRJEREMY",
+        "discount": 0.25
+    },
+    {
+        "id": 4,
+        "code": "PYRROX",
+        "discount": 0.15
+    },
+    {
+        "id": 5,
+        "code": "CERTIFIEDKUPAL",
+        "discount": 0.50
+    }
+]

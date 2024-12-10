@@ -9,6 +9,7 @@
   --lapis-lazuli: #0c6291;
   --cerulean: #247ba0;
   --khaki: #c3b299;
+  --cardinal: #c41e3A;
 
   /*PALETTE 2*/
   --amaranth-purple: #a63446;
@@ -205,6 +206,39 @@ nav ul li a {
 
 /*LISTING*/
 .product-list-card img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.star-rating {
+  font-size: 20px;
+}
+
+.filled-star {
+  color: gold;
+}
+
+.empty-star {
+  color: var(--ash-gray);
+}
+
+.half-star {
+  color: var(--ash-gray);
+  position: relative;
+}
+
+.half-star::after {
+  content: "★";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  color: gold;
+}
+
+/*PAYMENT*/
+.payment-product-image img {
   object-fit: cover;
   object-position: center;
 }

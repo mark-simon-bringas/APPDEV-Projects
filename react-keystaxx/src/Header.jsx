@@ -4,6 +4,7 @@ import MissionVision from './components/MissionVision'
 import Showcase from './components/Showcase'
 import Listing from './components/Listing'
 import ListingIndiv from './components/ListingIndiv'
+import Payment from './components/Payment'
 import Reviews from './components/Reviews'
 import Company from './components/Company'
 import Employee from './components/Employee'
@@ -49,7 +50,10 @@ export default function Header() {
                 <Route path='/showcase' element={<Showcase />} />
                 <Route path='/listing'>
                     <Route index element={<Listing />} />
-                    <Route path=':keyboardID' element={<ListingIndiv />} />
+                    <Route path=':keyboardID'>
+                        <Route index element={<ListingIndiv />} />
+                        <Route path=':paymentID' element={<Payment />} />
+                    </Route>
                 </Route>
                 <Route path='/reviews' element={<Reviews />} />
                 <Route path='/company'>

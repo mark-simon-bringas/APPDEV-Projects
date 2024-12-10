@@ -22,7 +22,7 @@ export default function Developer() {
                     Keystaxx is his second website project, and he is willing to do his best to accomplish the project beyond its standards.
                 </p>
                 <Link to='/developer/resume'>
-                    <button>Resumé</button>
+                    <button>View Resumé</button>
                 </Link>
                 <br /><br />
                 <button className='vouch-points' onClick={vouch}>Vouch!</button>
