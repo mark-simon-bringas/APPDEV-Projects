@@ -15,28 +15,30 @@ export default function Header() {
     return (
         <>
             <header>
-                <h1>KeyStaxx</h1>
+                <Link to='/'>
+                    <h1>KeyStaxx</h1>
+                </Link>
                 <nav>
                     <ul>
-                        <li>
+                        <li title='Home'>
                             <Link to='/'>Home</Link>
                         </li>
-                        <li>
+                        <li title='Mission & Vision'>
                             <Link to='/mission-vision'>Mission & Vision</Link>
                         </li>
-                        <li>
+                        <li title='Showcase'>
                             <Link to='/showcase'>Showcase</Link>
                         </li>
-                        <li>
+                        <li title='Listing'>
                             <Link to='/listing'>Listing</Link>
                         </li>
-                        <li>
+                        <li title='Reviews'>
                             <Link to='/reviews'>Reviews</Link>
                         </li>
-                        <li>
+                        <li title='Company'>
                             <Link to='/company'>Company</Link>
                         </li>
-                        <li>
+                        <li title='Developer'>
                             <Link to='/developer'>Developer</Link>
                         </li>
                     </ul>

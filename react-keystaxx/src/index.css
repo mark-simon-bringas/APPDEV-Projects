@@ -7,9 +7,10 @@
   --ash-gray: #cbd4c2;
   --snow: #fffcff;
   --lapis-lazuli: #0c6291;
+  --light-cerulean: #4298bd;
   --cerulean: #247ba0;
   --khaki: #c3b299;
-  --cardinal: #c41e3A;
+  --cardinal: #c41e3a;
 
   /*PALETTE 2*/
   --amaranth-purple: #a63446;
@@ -41,6 +42,7 @@ header, .header-2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 10px 20px;
   z-index: 10;
   color: var(--snow);
 }
@@ -51,6 +53,37 @@ header {
 
 .header-2 {
   background-color: var(--cerulean);
+  height: 10px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: var(--snow);
+  margin: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+header h1:hover {
+  animation: zoom-shake 0.5s ease-in-out;
+}
+
+@keyframes zoom-shake {
+  0% {
+    transform: scale(1) translateX(0);
+  }
+  25% {
+    transform: scale(1.1) translateX(-2px);
+  }
+  50% {
+    transform: scale(1.1) translateX(2px);
+  }
+  75% {
+    transform: scale(1.1) translateX(-2px);
+  }
+  100% {
+    transform: scale(1) translateX(0);
+  }
 }
 
 nav ul {
@@ -66,6 +99,29 @@ nav ul li {
 
 nav ul li a {
   color: var(--snow);
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+nav ul li:hover a {
+  background-color: var(--snow);
+  color: var(--lapis-lazuli-dark);
+  border-radius: 10px;
+}
+
+nav ul li:hover a::after {
+  animation: fade-in 0.3s ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*HOME*/
@@ -204,6 +260,72 @@ nav ul li a {
     color: var(--davys-gray);
 }
 
+/*MISSION & VISION*/
+.mission-vision-wrapper {
+  background-color: var(--light-cerulean);
+  padding: 50px 0;
+}
+
+.mission, .vision {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 50px;
+  padding: 20px;
+  background-color: var(--snow);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission:hover, .vision:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.mission {
+  margin-bottom: 50px;
+}
+
+.vision {
+  margin-top: 50px;
+}
+
+.mission img, .vision img {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.mission div, .vision div {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.page-title-2 {
+  color: var(--lapis-lazuli);
+  font-size: 2rem;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.mission p, .vision p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--eerie-black);
+  margin: 20px 0;
+  text-align: center;
+}
+
+.mission hr, .vision hr {
+  border: 1px solid var(--cerulean);
+  width: 50%;
+  margin: 10px auto;
+}
+
 /*LISTING*/
 .product-list-card img {
   object-fit: cover;
@@ -238,19 +360,33 @@ nav ul li a {
 }
 
 /*PAYMENT*/
+.page-title-2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--cerulean);
+  text-shadow: 1px 1px var(--lapis-lazuli-dark);
+  margin: 0;
+  padding: 30px 0;
+}
+
 .payment-product-image img {
   object-fit: cover;
   object-position: center;
 }
 
 /*REVIEWS*/
+.reviews-wrapper {
+  background-color: var(--light-cerulean);
+}
+
 .review-form-container {
   background-color: white;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   width: 100%;
   max-width: 600px;
   padding: 20px;
   margin: 30px auto;
+  border-radius: 10px;
 }
 
 .review-form-container h1 {
@@ -285,6 +421,16 @@ nav ul li a {
   box-sizing: border-box;
 }
 
+.form-group input::placeholder, .form-group textarea::placeholder {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+  max-height: 1000px;
+}
+
 .form-group input:focus, .form-group textarea:focus {
   border-color: var(--lapis-lazuli);
   outline: none;
@@ -312,31 +458,262 @@ nav ul li a {
   color: white;
   padding: 10px 20px;
   font-size: 1.1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   width: 100%;
+  transition: background-color 0.3s ease;
 }
 
 .submit-button:hover {
-  background-color: var(--lapis-lazuli-dark);
+  background-color: var(--cerulean);
 }
 
 /*COMPANY*/
+.company-info {
+  background-image: url("./assets/image/company-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .company-info-image img {
-  object-fit: cover;
   object-position: center;
 }
 
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--baby-powder-one);
+  text-shadow: 2px 2px var(--lapis-lazuli-dark);
+  margin: 0;
+  padding: 30px 0;
+}
+
+.company-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.company-member-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--snow);
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+.company-info-image {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.member-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.company-member-text h2 {
+  font-size: 1.5rem;
+  color: var(--davys-gray);
+  margin: 10px 0;
+}
+
+.company-member-text h3 {
+  font-size: 1.2rem;
+  color: var(--cerulean);
+  margin-bottom: 10px;
+}
+
+.company-member-text p {
+  font-size: 1rem;
+  color: var(--eerie-black);
+  margin-bottom: 15px;
+}
+
+.resume-button {
+  background-color: var(--lapis-lazuli);
+  color: var(--snow);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: var(--cerulean);
+}
+
+@media (max-width: 768px) {
+  .company-members {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+/*EMPLOYEE*/
+.company-member-resume-info {
+  margin: 20px 200px;
+}
+
+.company-member-resume-info-wrapper {
+  h1, h2, p, ul, ul li {
+    margin: 0;
+  }
+
+  h2 {
+    padding-bottom: 10px;
+  }
+
+  ul {
+    padding-top: 5px;
+  }
+}
+
+.company-member-resume-info-education,
+.company-member-resume-info-experience {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-justify {
+  text-align: right;
+}
+
 /*DEVELOPER*/
+.developer-wrapper {
+  background-image: url("./assets/image/developer-bg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .developer-image img {
   object-fit: cover;
   object-position: top;
 }
 
+.developer-image {
+  text-align: center;
+}
+
+/* Developer Image */
+.developer-image img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Developer Info Section */
+.developer-info {
+  background-color: var(--snow);
+  color: var(--davys-gray);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.developer-info h1 {
+  color: var(--cerulean);
+  text-shadow: 1px 1px var(--lapis-lazuli-dark);
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.developer-info p {
+  color: var(--davys-gray);
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.developer-info button {
+  background-color: var(--lapis-lazuli);
+  color: var(--snow);
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.developer-info button:hover {
+  background-color: var(--cerulean);
+}
+
+.vouch-points {
+  background-color: var(--khaki);
+  margin-top: 10px;
+}
+
+.vouch-points:hover {
+  background-color: var(--davys-gray);
+}
+
+.developer-info a {
+  text-decoration: none;
+}
+
+.developer-info a:visited {
+  color: var(--lapis-lazuli);
+}
+
+/*RESUME*/
+.resume-info {
+  margin: 20px 200px;
+}
+
+.resume-info-wrapper {
+  h1, h2, p, ul, ul li {
+    margin: 0;
+  }
+
+  h2 {
+    padding-bottom: 10px;
+  }
+
+  ul {
+    padding-top: 5px;
+  }
+}
+
+.resume-info-education, .resume-info-project, .resume-info-experience {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-justify {
+  text-align: right;
+}
+
 .social-media {
   display: flex;
   gap: 20px;
+}
+
+.social-media span {
+  user-select: none;
 }
 
 /*FOOTER*/

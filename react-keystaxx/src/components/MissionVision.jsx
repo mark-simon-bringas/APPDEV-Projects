@@ -1,25 +1,38 @@
+import missionImg from "../assets/image/mission-showcase.webp"
+import visionImg from "../assets/image/vision-showcase.webp"
+
 export default function MissionVision() {
     return (
         <>
-            <div className="mission">
-                <h1><center>Mission</center></h1>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates voluptatum atque amet tempora rerum veniam minus nulla, quia ipsum, rem corporis molestias, error eos qui sequi doloremque in excepturi obcaecati?
-                    Perspiciatis voluptatibus magnam neque ipsam id a sunt maxime ipsa reprehenderit eligendi fuga tenetur corporis impedit aliquam amet soluta dignissimos, molestias totam nisi? Ullam qui voluptates amet sed maiores incidunt.
-                    Culpa error in quis, accusantium modi perspiciatis necessitatibus dolorum repellendus itaque odit autem sed omnis voluptatum assumenda, dolores at ratione nisi excepturi distinctio nesciunt. Fuga quaerat expedita velit nulla accusamus!
-                    Aut, aliquam nihil veniam similique fugiat amet officia ut, doloribus, tempora dolorem reiciendis dolor possimus laborum corrupti odio porro blanditiis optio autem aperiam doloremque consequuntur sit est. Explicabo, enim esse!
-                    Enim labore deleniti mollitia hic suscipit dolore quod a quidem, deserunt eum modi repellat quia similique? Animi quidem, cumque minima voluptatibus eveniet quo dolorem. Distinctio minus suscipit facere ipsum minima.
-                </p>
-            </div>
-            <div className="vision">
-                <h1><center>Vision</center></h1>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates voluptatum atque amet tempora rerum veniam minus nulla, quia ipsum, rem corporis molestias, error eos qui sequi doloremque in excepturi obcaecati?
-                    Perspiciatis voluptatibus magnam neque ipsam id a sunt maxime ipsa reprehenderit eligendi fuga tenetur corporis impedit aliquam amet soluta dignissimos, molestias totam nisi? Ullam qui voluptates amet sed maiores incidunt.
-                    Culpa error in quis, accusantium modi perspiciatis necessitatibus dolorum repellendus itaque odit autem sed omnis voluptatum assumenda, dolores at ratione nisi excepturi distinctio nesciunt. Fuga quaerat expedita velit nulla accusamus!
-                    Aut, aliquam nihil veniam similique fugiat amet officia ut, doloribus, tempora dolorem reiciendis dolor possimus laborum corrupti odio porro blanditiis optio autem aperiam doloremque consequuntur sit est. Explicabo, enim esse!
-                    Enim labore deleniti mollitia hic suscipit dolore quod a quidem, deserunt eum modi repellat quia similique? Animi quidem, cumque minima voluptatibus eveniet quo dolorem. Distinctio minus suscipit facere ipsum minima.
-                </p>
+            <div className="mission-vision-wrapper">
+                <div className="mission">
+                    <div>
+                        <h1 className="page-title-2"><center>Mission</center></h1>
+                        <hr />
+                        <p>
+                            To become a <strong>global leader in keyboard innovation</strong>, blending <strong>craftsmanship with technology</strong> to create personalized, high-performance typing experiences for everyone, <strong>from everyday professionals to passionate PC enthusiasts</strong>.
+                        </p>
+                    </div>
+                    <img 
+                        src={missionImg} 
+                        alt="mission-image"
+                        style={{ width: "720px", height: "480px" }}
+                    />
+                </div>
+                <div className="vision">
+                    <img 
+                        src={visionImg}
+                        alt="vision-image"
+                        style={{ width: "720px", height: "480px" }}
+                        />
+                    <div>
+                        <h1 className="page-title-2"><center>Vision</center></h1>
+                        <hr />
+                        <p>
+                        At KeyStaxx, we design and craft premium artisan and standard mechanical keyboards that cater to diverse needs. Our mission is to <strong>deliver exceptional products</strong> that enhance productivity, comfort, and creativity while <strong>embracing innovation</strong>. We aim to provide our customers with reliable, customized solutions, <strong>fostering a seamless connection between design and function</strong>.
+                        </p>
+                    </div>
+                </div>
             </div>
         </>
     )
