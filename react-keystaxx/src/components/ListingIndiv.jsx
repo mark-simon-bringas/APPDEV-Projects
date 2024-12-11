@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Link, useLocation } from "react-router-dom"
 
 export default function ListingIndiv() {
@@ -86,6 +86,15 @@ export default function ListingIndiv() {
             })
         )
     }
+    
+    // automatic scroll on top
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        })
+    }, [location])
+    
 
     return (
         <>
