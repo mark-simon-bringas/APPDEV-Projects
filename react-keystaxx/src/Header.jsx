@@ -50,6 +50,10 @@ export default function Header() {
                 <Route path='/' element={<Home />} />
                 <Route path='/mission-vision' element={<MissionVision />} />
                 <Route path='/showcase' element={<Showcase />} />
+                <Route path='/showcase'>
+                    <Route index element={<Showcase />} />
+                    <Route path=':keyboardID' element={<ListingIndiv />} />
+                </Route>
                 <Route path='/listing'>
                     <Route index element={<Listing />} />
                     <Route path=':keyboardID'>

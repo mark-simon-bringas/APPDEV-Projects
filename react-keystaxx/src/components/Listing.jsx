@@ -7,15 +7,13 @@ export default function Listing() {
     const mechanicalKeyboards = keyboards.filter((keyboard) => keyboard.type === "Mechanical");
     const membraneKeyboards = keyboards.filter((keyboard) => keyboard.type === "Membrane");
 
-    // Function to calculate average rating
     const calculateAverageRating = (reviews) => {
         const sum = reviews.reduce((acc, review) => acc + review.rating, 0);
-        return (sum / reviews.length).toFixed(2);
+        return (sum / reviews.length).toFixed(2)
     }
 
-    // Function to generate star rating
     const renderStarRating = (averageRating) => {
-        const totalStars = 5;
+        const totalStars = 5
         const fullStars = Math.floor(averageRating)
         const halfStars = ((averageRating % 1) >= 0.5) ? 1 : 0
         const emptyStars = totalStars - fullStars - halfStars
@@ -38,8 +36,8 @@ export default function Listing() {
                     ))
                 }
             </div>
-        );
-    };
+        )
+    }
 
     return (
         <>
