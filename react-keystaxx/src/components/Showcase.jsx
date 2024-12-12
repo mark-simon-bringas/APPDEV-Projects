@@ -1,5 +1,4 @@
-import { useEffect } from "react"
-import { Link, useLocation } from "react-router-dom"
+import { Link } from "react-router-dom"
 import keyboardsData from '../assets/data/keyboards.json'
 import mech1 from "../assets/image/mech-showcase 01.jpg"
 import mech2 from "../assets/image/mech-showcase 02.jpg"
@@ -50,7 +49,7 @@ export default function Showcase() {
                 <div className="showcase-wrapper">
                     <h1 className="page-title">Check our Keyboards</h1>
                     <p style={{ textShadow: "1px 2px var(--lapis-lazuli-dark)", margin: "0 50px" }}>
-                        Discover the ideal blend of performance and aesthetics with our wide range of mechanical and membrane keyboards. Whether you're a professional gamer or a casual typist, we offer the perfect keyboard for every need, designed for durability, comfort, and style.
+                        Discover the ideal blend of performance and aesthetics with our wide range of mechanical and membrane keyboards. Whether you&apos;re a professional gamer or a casual typist, we offer the perfect keyboard for every need, designed for durability, comfort, and style.
                     </p>
 
                     <div className="showcase-wrapper-2">

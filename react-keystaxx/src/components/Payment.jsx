@@ -63,19 +63,19 @@ export default function Payment() {
 
     return (
         <>
+            <h1 className="page-title-2">Order Details</h1>
             <div className="payment-product">
-                <h2>Order Details</h2>
                 <div className="payment-product-image">
                     <img 
                         src={keyboard.image} 
                         alt={keyboard.title} 
                         title={keyboard.title}
-                        style={{ width: "200px", height: "200px" }}
+                        style={{ width: "400px", height: "400px" }}
                     />
                 </div>
                 <div className="payment-product-info">
-                    <h4>{keyboard.title}</h4>
-                    Quantity: {quantity}
+                    <h2>{keyboard.title}</h2>
+                    <p>Quantity: {quantity}</p>
                 </div>
             </div>
             <div className="payment-address">

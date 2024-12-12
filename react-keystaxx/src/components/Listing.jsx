@@ -4,8 +4,9 @@ import keyboardsData from '../assets/data/keyboards.json'
 
 export default function Listing() {
     const [keyboards] = useState(keyboardsData)
-    const mechanicalKeyboards = keyboards.filter((keyboard) => keyboard.type === "Mechanical");
-    const membraneKeyboards = keyboards.filter((keyboard) => keyboard.type === "Membrane");
+    const [searchQuery, setSearchQuery] = useState("")
+    const [filterOption, setFilterOption] = useState("all")
+    const [sortOption, setSortOption] = useState("")
 
     const calculateAverageRating = (reviews) => {
         const sum = reviews.reduce((acc, review) => acc + review.rating, 0);
@@ -39,68 +40,132 @@ export default function Listing() {
         )
     }
 
+    const filteredKeyboards = keyboards.filter((keyboard) => {
+        const matchesSearch = keyboard.title.toLowerCase().includes(searchQuery.toLowerCase());
+        const matchesFilter =
+            filterOption === "all" ||
+            (filterOption === "mechanical" && keyboard.type === "Mechanical") ||
+            (filterOption === "membrane" && keyboard.type === "Membrane")
+        
+        return matchesSearch && matchesFilter
+    })
+
+    const sortedKeyboards = [...filteredKeyboards].sort((a, b) => {
+        if (sortOption === "title") {
+            return a.title.localeCompare(b.title)   // alphabetical ascending
+        }
+
+        else if (sortOption === "priceLowToHigh") {
+            return a.price - b.price    // low to high
+        }
+
+        else if (sortOption === "priceHighToLow") {
+             return b.price - a.price    // high to low
+        }
+
+        return  // default
+    });
+
     return (
         <>
             <div className="product-list">
-                <h1>Product Listing</h1>
-                
-                {/* Mechanical Keyboard */}
-                <div className="mechanical-keyboards">
-                    <h2>Mechanical Keyboards</h2>
-                    <div className="product-list-card">
-                        {
-                            mechanicalKeyboards.map((keyboard) => {
-                                const averageRating = calculateAverageRating(keyboard.reviews)
-                                
-                                return (
-                                    <div key={keyboard.id} className="product-card">
-                                        <div className="product-list-image">
-                                            <img
-                                                src={keyboard.image}
-                                                alt={keyboard.title}
-                                                title={keyboard.title}
-                                                style={{ width: "400px", height: "400px" }}
-                                            />
-                                        </div>
-                                        <strong>{keyboard.title}</strong><br />
-                                        &#8369; {keyboard.price.toFixed(2)}<br />
-                                        <strong>Rating: </strong>{averageRating}{renderStarRating(averageRating)}<br />
-                                        <Link to={`/listing/${keyboard.id}`} state={{ keyboard }}>
-                                            <button>Learn More</button>
-                                        </Link>
-                                    </div>
-                                );
-                            })
-                        }
+                <h1 className='page-title-2'>Product Listing</h1>
+                {/* PRODUCT FILTERS */}
+                <div className="product-filters">
+                    <div className="search-bar">
+                        <label htmlFor="search">Search:&nbsp;</label>
+                        <input
+                            type="text"
+                            placeholder="Search products"
+                            value={searchQuery}
+                            onChange={(e) => setSearchQuery(e.target.value)}
+                        />
+                    </div>
+
+                    <div className="filter-dropdown">
+                        <label htmlFor="filter">Keyboard Type:&nbsp;</label>
+                        <select
+                            id="filter"
+                            value={filterOption}
+                            onChange={(e) => setFilterOption(e.target.value)}
+                        >
+                            <option value="all">All</option>
+                            <option value="mechanical">Mechanical</option>
+                            <option value="membrane">Membrane</option>
+                        </select>
+                    </div>
+
+                    <div className="sort-dropdown">
+                        <label htmlFor="sort">Sort By:&nbsp;</label>
+                        <select
+                            id="sort"
+                            value={sortOption}
+                            onChange={(e) => setSortOption(e.target.value)}
+                        >
+                            <option value="">Default</option>
+                            <option value="title">Title (A-Z)</option>
+                            <option value="priceLowToHigh">Price (Low to High)</option>
+                            <option value="priceHighToLow">Price (High to Low)</option>
+                        </select>
                     </div>
                 </div>
-                <br />
-                {/* Membrane Keyboard */}
-                <div className="membrane-keyboards">
-                    <h2>Membrane Keyboards</h2>
+                {/* KEYBOARDS LISTING */}
+                <div className="all-keyboards">
                     <div className="product-list-card">
                         {
-                            membraneKeyboards.map((keyboard) => {
-                                const averageRating = calculateAverageRating(keyboard.reviews)
-                                return (
-                                    <div key={keyboard.id} className="product-card">
-                                        <div className="product-list-image">
-                                            <img
-                                                src={keyboard.image}
-                                                alt={keyboard.title}
-                                                title={keyboard.title}
-                                                style={{ width: "400px", height: "400px" }}
-                                            />
+                            sortedKeyboards.length > 0 ? (
+                                sortedKeyboards.map((keyboard) => {
+                                    const averageRating = calculateAverageRating(keyboard.reviews)
+                                    return (
+                                        <div key={keyboard.id} className="product-card">
+                                            <div className="product-list-image">
+                                                <img
+                                                    src={keyboard.image}
+                                                    alt={keyboard.title}
+                                                    title={keyboard.title}
+                                                    style={{ width: "400px", height: "400px" }}
+                                                />
+                                            </div>
+                                            <p><strong>{keyboard.title}</strong><br /></p>
+                                            &#8369; {keyboard.price.toFixed(2)}<br />
+                                            <strong>Rating: </strong>{averageRating}{renderStarRating(averageRating)}<br />
+                                            <Link to={`/listing/${keyboard.id}`} state={{ keyboard }}>
+                                                <button>Learn More</button>
+                                            </Link>
                                         </div>
-                                        <strong>{keyboard.title}</strong><br />
-                                        &#8369; {keyboard.price.toFixed(2)}<br />
-                                        <strong>Rating: </strong>{averageRating}{renderStarRating(averageRating)}<br />
-                                        <Link to={`/listing/${keyboard.id}`} state={{ keyboard }}>
-                                            <button>Learn More</button>
-                                        </Link>
+                                    );
+                                })
+                            ) : (
+                                /* DEFAULT PRODUCT DISPLAY */
+                                <>                                
+                                    <h3>No products found. Find other products here instead.</h3>
+                                    <div className="product-list-card">
+                                        {   
+                                            keyboards.map((keyboard) => {
+                                                const averageRating = calculateAverageRating(keyboard.reviews)
+                                                return (
+                                                    <div key={keyboard.id} className="product-card">
+                                                        <div className="product-list-image">
+                                                            <img
+                                                                src={keyboard.image}
+                                                                alt={keyboard.title}
+                                                                title={keyboard.title}
+                                                                style={{ width: "400px", height: "400px" }}
+                                                            />
+                                                        </div>
+                                                        <strong>{keyboard.title}</strong><br />
+                                                        &#8369; {keyboard.price.toFixed(2)}<br />
+                                                        <strong>Rating: </strong>{averageRating}{renderStarRating(averageRating)}<br />
+                                                        <Link to={`/listing/${keyboard.id}`} state={{ keyboard }}>
+                                                            <button>Learn More</button>
+                                                        </Link>
+                                                    </div>
+                                                );
+                                            })
+                                        }
                                     </div>
-                                );
-                            })
+                                </>
+                            )
                         }
                     </div>
                 </div>

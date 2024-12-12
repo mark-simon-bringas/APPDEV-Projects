@@ -24,7 +24,7 @@ export default function Company() {
                                         <h3>{employee.position}</h3>
                                         <p>{employee.description}</p>
                                         <Link to={`/company/member-${employee.id}`} state={{ employee }}>
-                                            <button className="resume-button">Resumé</button>
+                                            <button className="resume-button">View Resumé</button>
                                         </Link>
                                     </div>
                                 </div>
