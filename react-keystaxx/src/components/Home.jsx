@@ -74,13 +74,13 @@ export default function Home() {
                 <h2>What Our Customers Say</h2>
                 <div className="testimonials-grid">
                     <div className="testimonial">
-                        <p>&quot;I absolutely love my Keystaxx keyboard! The quality and feel are unmatched.&quot; – Emma</p>
+                        <p>I absolutely love my Keystaxx keyboard! The quality and feel are unmatched. – Emma</p>
                     </div>
                     <div className="testimonial">
-                        <p>&quot;Perfect for my gaming setup. The RGB lighting and custom switches are amazing.&quot; – John</p>
+                        <p>Perfect for my gaming setup. The RGB lighting and custom switches are amazing. – John</p>
                     </div>
                     <div className="testimonial">
-                        <p>&quot;The ergonomic design really helped with my wrist pain. Highly recommend!&quot; – Sarah</p>
+                        <p>The ergonomic design really helped with my wrist pain. Highly recommend! – Sarah</p>
                     </div>
                 </div>
             </section>

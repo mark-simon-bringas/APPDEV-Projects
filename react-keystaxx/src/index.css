@@ -541,6 +541,7 @@ nav ul li:hover a::after {
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
   width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .learn-more-btn:hover {
